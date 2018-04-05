@@ -1,0 +1,4 @@
+platform :osx, '10.10'
+target 'serial-port-swift' do
+    pod "ORSSerialPort"
+end

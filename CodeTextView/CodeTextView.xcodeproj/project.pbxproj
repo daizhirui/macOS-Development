@@ -1,0 +1,1458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2373D8EF206C1DF700038B74 /* CodeTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2373D8ED206C1DF700038B74 /* CodeTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2373D94C206C1F8400038B74 /* ascetic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D8FA206C1F7B00038B74 /* ascetic.min.css */; };
+		2373D94D206C1F8400038B74 /* monokai-sublime.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D8FB206C1F7B00038B74 /* monokai-sublime.min.css */; };
+		2373D94E206C1F8400038B74 /* codepen-embed.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D8FC206C1F7B00038B74 /* codepen-embed.min.css */; };
+		2373D94F206C1F8400038B74 /* kimbie.light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D8FD206C1F7B00038B74 /* kimbie.light.min.css */; };
+		2373D950206C1F8400038B74 /* atelier-savanna-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D8FE206C1F7B00038B74 /* atelier-savanna-dark.min.css */; };
+		2373D951206C1F8400038B74 /* darkula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D8FF206C1F7B00038B74 /* darkula.min.css */; };
+		2373D952206C1F8400038B74 /* rainbow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D900206C1F7B00038B74 /* rainbow.min.css */; };
+		2373D953206C1F8400038B74 /* xcode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D901206C1F7B00038B74 /* xcode.min.css */; };
+		2373D954206C1F8400038B74 /* atelier-seaside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D902206C1F7B00038B74 /* atelier-seaside-dark.min.css */; };
+		2373D955206C1F8400038B74 /* atelier-sulphurpool-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D903206C1F7B00038B74 /* atelier-sulphurpool-dark.min.css */; };
+		2373D956206C1F8400038B74 /* qtcreator_dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D904206C1F7B00038B74 /* qtcreator_dark.min.css */; };
+		2373D957206C1F8400038B74 /* tomorrow-night.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D905206C1F7C00038B74 /* tomorrow-night.min.css */; };
+		2373D958206C1F8400038B74 /* darcula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D906206C1F7C00038B74 /* darcula.min.css */; };
+		2373D959206C1F8400038B74 /* gruvbox-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D907206C1F7C00038B74 /* gruvbox-light.min.css */; };
+		2373D95A206C1F8400038B74 /* agate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D908206C1F7C00038B74 /* agate.min.css */; };
+		2373D95B206C1F8400038B74 /* atelier-estuary-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D909206C1F7C00038B74 /* atelier-estuary-dark.min.css */; };
+		2373D95C206C1F8400038B74 /* vs.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D90A206C1F7C00038B74 /* vs.min.css */; };
+		2373D95D206C1F8400038B74 /* school-book.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D90B206C1F7C00038B74 /* school-book.min.css */; };
+		2373D95E206C1F8400038B74 /* atelier-seaside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D90C206C1F7C00038B74 /* atelier-seaside-light.min.css */; };
+		2373D95F206C1F8400038B74 /* atom-one-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D90D206C1F7C00038B74 /* atom-one-light.min.css */; };
+		2373D960206C1F8400038B74 /* pojoaque.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D90E206C1F7C00038B74 /* pojoaque.min.css */; };
+		2373D961206C1F8400038B74 /* paraiso-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D90F206C1F7C00038B74 /* paraiso-light.min.css */; };
+		2373D962206C1F8400038B74 /* atelier-plateau-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D910206C1F7C00038B74 /* atelier-plateau-light.min.css */; };
+		2373D963206C1F8400038B74 /* hybrid.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D911206C1F7D00038B74 /* hybrid.min.css */; };
+		2373D964206C1F8400038B74 /* ocean.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D912206C1F7D00038B74 /* ocean.min.css */; };
+		2373D965206C1F8400038B74 /* railscasts.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D913206C1F7D00038B74 /* railscasts.min.css */; };
+		2373D966206C1F8400038B74 /* tomorrow-night-bright.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D914206C1F7D00038B74 /* tomorrow-night-bright.min.css */; };
+		2373D967206C1F8400038B74 /* atelier-plateau-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D915206C1F7D00038B74 /* atelier-plateau-dark.min.css */; };
+		2373D968206C1F8400038B74 /* arta.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D916206C1F7D00038B74 /* arta.min.css */; };
+		2373D969206C1F8400038B74 /* atelier-heath-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D917206C1F7D00038B74 /* atelier-heath-dark.min.css */; };
+		2373D96A206C1F8400038B74 /* atelier-forest-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D918206C1F7D00038B74 /* atelier-forest-dark.min.css */; };
+		2373D96B206C1F8400038B74 /* github.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D919206C1F7E00038B74 /* github.min.css */; };
+		2373D96C206C1F8400038B74 /* dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D91A206C1F7E00038B74 /* dark.min.css */; };
+		2373D96D206C1F8400038B74 /* brown-papersq.png in Resources */ = {isa = PBXBuildFile; fileRef = 2373D91B206C1F7E00038B74 /* brown-papersq.png */; };
+		2373D96E206C1F8400038B74 /* default.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D91C206C1F7E00038B74 /* default.min.css */; };
+		2373D96F206C1F8400038B74 /* solarized-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D91D206C1F7E00038B74 /* solarized-dark.min.css */; };
+		2373D970206C1F8400038B74 /* atelier-cave-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D91E206C1F7E00038B74 /* atelier-cave-light.min.css */; };
+		2373D971206C1F8400038B74 /* atelier-dune-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D91F206C1F7E00038B74 /* atelier-dune-light.min.css */; };
+		2373D972206C1F8400038B74 /* atelier-lakeside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D920206C1F7F00038B74 /* atelier-lakeside-dark.min.css */; };
+		2373D973206C1F8400038B74 /* atom-one-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D921206C1F7F00038B74 /* atom-one-dark.min.css */; };
+		2373D974206C1F8400038B74 /* sunburst.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D922206C1F7F00038B74 /* sunburst.min.css */; };
+		2373D975206C1F8400038B74 /* color-brewer.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D923206C1F7F00038B74 /* color-brewer.min.css */; };
+		2373D976206C1F8400038B74 /* obsidian.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D924206C1F7F00038B74 /* obsidian.min.css */; };
+		2373D977206C1F8400038B74 /* atelier-estuary-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D925206C1F7F00038B74 /* atelier-estuary-light.min.css */; };
+		2373D978206C1F8400038B74 /* androidstudio.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D926206C1F7F00038B74 /* androidstudio.min.css */; };
+		2373D979206C1F8400038B74 /* arduino-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D927206C1F7F00038B74 /* arduino-light.min.css */; };
+		2373D97A206C1F8400038B74 /* pojoaque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2373D928206C1F7F00038B74 /* pojoaque.jpg */; };
+		2373D97B206C1F8400038B74 /* routeros.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D929206C1F7F00038B74 /* routeros.min.css */; };
+		2373D97C206C1F8400038B74 /* school-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 2373D92A206C1F7F00038B74 /* school-book.png */; };
+		2373D97D206C1F8400038B74 /* paraiso-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D92B206C1F8000038B74 /* paraiso-dark.min.css */; };
+		2373D97E206C1F8400038B74 /* tomorrow-night-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D92C206C1F8000038B74 /* tomorrow-night-blue.min.css */; };
+		2373D97F206C1F8400038B74 /* xt256.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D92D206C1F8000038B74 /* xt256.min.css */; };
+		2373D980206C1F8400038B74 /* atelier-dune-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D92E206C1F8000038B74 /* atelier-dune-dark.min.css */; };
+		2373D981206C1F8400038B74 /* kimbie.dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D92F206C1F8000038B74 /* kimbie.dark.min.css */; };
+		2373D982206C1F8400038B74 /* tomorrow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D930206C1F8000038B74 /* tomorrow.min.css */; };
+		2373D983206C1F8400038B74 /* dracula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D931206C1F8000038B74 /* dracula.min.css */; };
+		2373D984206C1F8400038B74 /* mono-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D932206C1F8000038B74 /* mono-blue.min.css */; };
+		2373D985206C1F8400038B74 /* purebasic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D933206C1F8000038B74 /* purebasic.min.css */; };
+		2373D986206C1F8400038B74 /* atelier-heath-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D934206C1F8000038B74 /* atelier-heath-light.min.css */; };
+		2373D987206C1F8400038B74 /* googlecode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D935206C1F8000038B74 /* googlecode.min.css */; };
+		2373D988206C1F8400038B74 /* ir-black.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D936206C1F8100038B74 /* ir-black.min.css */; };
+		2373D989206C1F8400038B74 /* docco.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D937206C1F8100038B74 /* docco.min.css */; };
+		2373D98A206C1F8400038B74 /* brown-paper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D938206C1F8100038B74 /* brown-paper.min.css */; };
+		2373D98B206C1F8400038B74 /* far.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D939206C1F8100038B74 /* far.min.css */; };
+		2373D98C206C1F8400038B74 /* tomorrow-night-eighties.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D93A206C1F8100038B74 /* tomorrow-night-eighties.min.css */; };
+		2373D98D206C1F8400038B74 /* vs2015.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D93B206C1F8200038B74 /* vs2015.min.css */; };
+		2373D98E206C1F8400038B74 /* atelier-sulphurpool-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D93C206C1F8200038B74 /* atelier-sulphurpool-light.min.css */; };
+		2373D98F206C1F8400038B74 /* atelier-cave-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D93D206C1F8200038B74 /* atelier-cave-dark.min.css */; };
+		2373D990206C1F8400038B74 /* magula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D93E206C1F8200038B74 /* magula.min.css */; };
+		2373D991206C1F8400038B74 /* solarized-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D93F206C1F8200038B74 /* solarized-light.min.css */; };
+		2373D992206C1F8400038B74 /* atelier-forest-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D940206C1F8200038B74 /* atelier-forest-light.min.css */; };
+		2373D993206C1F8400038B74 /* gruvbox-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D941206C1F8200038B74 /* gruvbox-dark.min.css */; };
+		2373D994206C1F8400038B74 /* github-gist.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D942206C1F8200038B74 /* github-gist.min.css */; };
+		2373D995206C1F8400038B74 /* atelier-savanna-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D943206C1F8200038B74 /* atelier-savanna-light.min.css */; };
+		2373D996206C1F8400038B74 /* monokai.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D944206C1F8200038B74 /* monokai.min.css */; };
+		2373D997206C1F8400038B74 /* foundation.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D945206C1F8200038B74 /* foundation.min.css */; };
+		2373D998206C1F8400038B74 /* idea.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D946206C1F8300038B74 /* idea.min.css */; };
+		2373D999206C1F8400038B74 /* qtcreator_light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D947206C1F8300038B74 /* qtcreator_light.min.css */; };
+		2373D99A206C1F8400038B74 /* atelier-lakeside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D948206C1F8400038B74 /* atelier-lakeside-light.min.css */; };
+		2373D99B206C1F8400038B74 /* zenburn.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D949206C1F8400038B74 /* zenburn.min.css */; };
+		2373D99C206C1F8400038B74 /* grayscale.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D94A206C1F8400038B74 /* grayscale.min.css */; };
+		2373D99D206C1F8400038B74 /* hopscotch.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 2373D94B206C1F8400038B74 /* hopscotch.min.css */; };
+		2373DA4E206C1FC000038B74 /* gams.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D99E206C1FAC00038B74 /* gams.min.js */; };
+		2373DA4F206C1FC000038B74 /* gradle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D99F206C1FAC00038B74 /* gradle.min.js */; };
+		2373DA50206C1FC000038B74 /* mizar.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A0206C1FAC00038B74 /* mizar.min.js */; };
+		2373DA51206C1FC000038B74 /* gauss.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A1206C1FAD00038B74 /* gauss.min.js */; };
+		2373DA52206C1FC000038B74 /* flix.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A2206C1FAD00038B74 /* flix.min.js */; };
+		2373DA53206C1FC000038B74 /* haxe.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A3206C1FAD00038B74 /* haxe.min.js */; };
+		2373DA54206C1FC000038B74 /* n1ql.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A4206C1FAD00038B74 /* n1ql.min.js */; };
+		2373DA55206C1FC000038B74 /* nimrod.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A5206C1FAD00038B74 /* nimrod.min.js */; };
+		2373DA56206C1FC000038B74 /* nix.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A6206C1FAD00038B74 /* nix.min.js */; };
+		2373DA57206C1FC000038B74 /* objectivec.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A7206C1FAD00038B74 /* objectivec.min.js */; };
+		2373DA58206C1FC000038B74 /* markdown.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A8206C1FAD00038B74 /* markdown.min.js */; };
+		2373DA59206C1FC000038B74 /* irpf90.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9A9206C1FAD00038B74 /* irpf90.min.js */; };
+		2373DA5A206C1FC000038B74 /* ldif.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9AA206C1FAD00038B74 /* ldif.min.js */; };
+		2373DA5B206C1FC000038B74 /* puppet.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9AB206C1FAD00038B74 /* puppet.min.js */; };
+		2373DA5C206C1FC000038B74 /* coq.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9AC206C1FAD00038B74 /* coq.min.js */; };
+		2373DA5D206C1FC000038B74 /* leaf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9AD206C1FAE00038B74 /* leaf.min.js */; };
+		2373DA5E206C1FC000038B74 /* monkey.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9AE206C1FAE00038B74 /* monkey.min.js */; };
+		2373DA5F206C1FC000038B74 /* rib.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9AF206C1FAE00038B74 /* rib.min.js */; };
+		2373DA60206C1FC000038B74 /* sql.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B0206C1FAE00038B74 /* sql.min.js */; };
+		2373DA61206C1FC000038B74 /* vhdl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B1206C1FAE00038B74 /* vhdl.min.js */; };
+		2373DA62206C1FC000038B74 /* yaml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B2206C1FAE00038B74 /* yaml.min.js */; };
+		2373DA63206C1FC000038B74 /* processing.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B3206C1FAE00038B74 /* processing.min.js */; };
+		2373DA64206C1FC000038B74 /* cs.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B4206C1FAE00038B74 /* cs.min.js */; };
+		2373DA65206C1FC000038B74 /* diff.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B5206C1FAE00038B74 /* diff.min.js */; };
+		2373DA66206C1FC000038B74 /* dts.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B6206C1FAE00038B74 /* dts.min.js */; };
+		2373DA67206C1FC000038B74 /* python.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B7206C1FAE00038B74 /* python.min.js */; };
+		2373DA68206C1FC000038B74 /* subunit.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B8206C1FAE00038B74 /* subunit.min.js */; };
+		2373DA69206C1FC000038B74 /* haskell.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9B9206C1FAF00038B74 /* haskell.min.js */; };
+		2373DA6A206C1FC000038B74 /* axapta.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9BA206C1FAF00038B74 /* axapta.min.js */; };
+		2373DA6B206C1FC000038B74 /* groovy.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9BB206C1FAF00038B74 /* groovy.min.js */; };
+		2373DA6C206C1FC000038B74 /* crmsh.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9BC206C1FAF00038B74 /* crmsh.min.js */; };
+		2373DA6D206C1FC000038B74 /* inform7.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9BD206C1FAF00038B74 /* inform7.min.js */; };
+		2373DA6E206C1FC000038B74 /* dns.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9BE206C1FAF00038B74 /* dns.min.js */; };
+		2373DA6F206C1FC000038B74 /* pony.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9BF206C1FAF00038B74 /* pony.min.js */; };
+		2373DA70206C1FC000038B74 /* openscad.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C0206C1FAF00038B74 /* openscad.min.js */; };
+		2373DA71206C1FC000038B74 /* powershell.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C1206C1FAF00038B74 /* powershell.min.js */; };
+		2373DA72206C1FC000038B74 /* protobuf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C2206C1FAF00038B74 /* protobuf.min.js */; };
+		2373DA73206C1FC000038B74 /* thrift.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C3206C1FB000038B74 /* thrift.min.js */; };
+		2373DA74206C1FC000038B74 /* typescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C4206C1FB000038B74 /* typescript.min.js */; };
+		2373DA75206C1FC000038B74 /* dos.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C5206C1FB000038B74 /* dos.min.js */; };
+		2373DA76206C1FC000038B74 /* erlang.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C6206C1FB000038B74 /* erlang.min.js */; };
+		2373DA77206C1FC000038B74 /* clojure-repl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C7206C1FB000038B74 /* clojure-repl.min.js */; };
+		2373DA78206C1FC000038B74 /* perl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C8206C1FB000038B74 /* perl.min.js */; };
+		2373DA79206C1FC000038B74 /* pf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9C9206C1FB000038B74 /* pf.min.js */; };
+		2373DA7A206C1FC000038B74 /* rsl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9CA206C1FB000038B74 /* rsl.min.js */; };
+		2373DA7B206C1FC000038B74 /* profile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9CB206C1FB000038B74 /* profile.min.js */; };
+		2373DA7C206C1FC000038B74 /* xml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9CC206C1FB000038B74 /* xml.min.js */; };
+		2373DA7D206C1FC000038B74 /* julia.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9CD206C1FB100038B74 /* julia.min.js */; };
+		2373DA7E206C1FC000038B74 /* ada.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9CE206C1FB100038B74 /* ada.min.js */; };
+		2373DA7F206C1FC000038B74 /* autoit.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9CF206C1FB100038B74 /* autoit.min.js */; };
+		2373DA80206C1FC000038B74 /* parser3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D0206C1FB100038B74 /* parser3.min.js */; };
+		2373DA81206C1FC000038B74 /* lua.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D1206C1FB100038B74 /* lua.min.js */; };
+		2373DA82206C1FC000038B74 /* stan.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D2206C1FB100038B74 /* stan.min.js */; };
+		2373DA83206C1FC000038B74 /* golo.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D3206C1FB100038B74 /* golo.min.js */; };
+		2373DA84206C1FC000038B74 /* q.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D4206C1FB100038B74 /* q.min.js */; };
+		2373DA85206C1FC000038B74 /* r.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D5206C1FB100038B74 /* r.min.js */; };
+		2373DA86206C1FC000038B74 /* applescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D6206C1FB100038B74 /* applescript.min.js */; };
+		2373DA87206C1FC000038B74 /* cmake.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D7206C1FB200038B74 /* cmake.min.js */; };
+		2373DA88206C1FC000038B74 /* vbscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D8206C1FB200038B74 /* vbscript.min.js */; };
+		2373DA89206C1FC000038B74 /* http.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9D9206C1FB200038B74 /* http.min.js */; };
+		2373DA8A206C1FC000038B74 /* nginx.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9DA206C1FB200038B74 /* nginx.min.js */; };
+		2373DA8B206C1FC000038B74 /* ocaml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9DB206C1FB200038B74 /* ocaml.min.js */; };
+		2373DA8C206C1FC000038B74 /* mathematica.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9DC206C1FB200038B74 /* mathematica.min.js */; };
+		2373DA8D206C1FC000038B74 /* vala.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9DD206C1FB200038B74 /* vala.min.js */; };
+		2373DA8E206C1FC000038B74 /* taggerscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9DE206C1FB200038B74 /* taggerscript.min.js */; };
+		2373DA8F206C1FC000038B74 /* twig.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9DF206C1FB200038B74 /* twig.min.js */; };
+		2373DA90206C1FC000038B74 /* ebnf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E0206C1FB200038B74 /* ebnf.min.js */; };
+		2373DA91206C1FC000038B74 /* elm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E1206C1FB300038B74 /* elm.min.js */; };
+		2373DA92206C1FC000038B74 /* rust.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E2206C1FB300038B74 /* rust.min.js */; };
+		2373DA93206C1FC000038B74 /* x86asm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E3206C1FB300038B74 /* x86asm.min.js */; };
+		2373DA94206C1FC000038B74 /* oxygene.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E4206C1FB300038B74 /* oxygene.min.js */; };
+		2373DA95206C1FC000038B74 /* llvm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E5206C1FB300038B74 /* llvm.min.js */; };
+		2373DA96206C1FC000038B74 /* csp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E6206C1FB300038B74 /* csp.min.js */; };
+		2373DA97206C1FC000038B74 /* scilab.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E7206C1FB300038B74 /* scilab.min.js */; };
+		2373DA98206C1FC000038B74 /* ruleslanguage.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E8206C1FB300038B74 /* ruleslanguage.min.js */; };
+		2373DA99206C1FC000038B74 /* vbnet.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9E9206C1FB300038B74 /* vbnet.min.js */; };
+		2373DA9A206C1FC000038B74 /* go.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9EA206C1FB300038B74 /* go.min.js */; };
+		2373DA9B206C1FC000038B74 /* 1c.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9EB206C1FB400038B74 /* 1c.min.js */; };
+		2373DA9C206C1FC000038B74 /* fortran.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9EC206C1FB400038B74 /* fortran.min.js */; };
+		2373DA9D206C1FC000038B74 /* ruby.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9ED206C1FB400038B74 /* ruby.min.js */; };
+		2373DA9E206C1FC000038B74 /* armasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9EE206C1FB400038B74 /* armasm.min.js */; };
+		2373DA9F206C1FC000038B74 /* vbscript-html.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9EF206C1FB400038B74 /* vbscript-html.min.js */; };
+		2373DAA0206C1FC000038B74 /* lsl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F0206C1FB400038B74 /* lsl.min.js */; };
+		2373DAA1206C1FC000038B74 /* java.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F1206C1FB400038B74 /* java.min.js */; };
+		2373DAA2206C1FC000038B74 /* clojure.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F2206C1FB400038B74 /* clojure.min.js */; };
+		2373DAA3206C1FC000038B74 /* avrasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F3206C1FB400038B74 /* avrasm.min.js */; };
+		2373DAA4206C1FC000038B74 /* lasso.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F4206C1FB400038B74 /* lasso.min.js */; };
+		2373DAA5206C1FC000038B74 /* fsharp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F5206C1FB400038B74 /* fsharp.min.js */; };
+		2373DAA6206C1FC000038B74 /* coffeescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F6206C1FB500038B74 /* coffeescript.min.js */; };
+		2373DAA7206C1FC000038B74 /* smali.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F7206C1FB500038B74 /* smali.min.js */; };
+		2373DAA8206C1FC000038B74 /* ceylon.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F8206C1FB500038B74 /* ceylon.min.js */; };
+		2373DAA9206C1FC000038B74 /* moonscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9F9206C1FB500038B74 /* moonscript.min.js */; };
+		2373DAAA206C1FC000038B74 /* purebasic.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9FA206C1FB500038B74 /* purebasic.min.js */; };
+		2373DAAB206C1FC000038B74 /* scss.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9FB206C1FB600038B74 /* scss.min.js */; };
+		2373DAAC206C1FC000038B74 /* shell.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9FC206C1FB600038B74 /* shell.min.js */; };
+		2373DAAD206C1FC000038B74 /* step21.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9FD206C1FB600038B74 /* step21.min.js */; };
+		2373DAAE206C1FC000038B74 /* tap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9FE206C1FB600038B74 /* tap.min.js */; };
+		2373DAAF206C1FC000038B74 /* kotlin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373D9FF206C1FB600038B74 /* kotlin.min.js */; };
+		2373DAB0206C1FC000038B74 /* xl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA00206C1FB600038B74 /* xl.min.js */; };
+		2373DAB1206C1FC000038B74 /* apache.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA01206C1FB600038B74 /* apache.min.js */; };
+		2373DAB2206C1FC000038B74 /* erb.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA02206C1FB600038B74 /* erb.min.js */; };
+		2373DAB3206C1FC000038B74 /* maxima.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA03206C1FB600038B74 /* maxima.min.js */; };
+		2373DAB4206C1FC000038B74 /* asciidoc.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA04206C1FB600038B74 /* asciidoc.min.js */; };
+		2373DAB5206C1FC000038B74 /* routeros.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA05206C1FB700038B74 /* routeros.min.js */; };
+		2373DAB6206C1FC000038B74 /* abnf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA06206C1FB700038B74 /* abnf.min.js */; };
+		2373DAB7206C1FC000038B74 /* dust.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA07206C1FB700038B74 /* dust.min.js */; };
+		2373DAB8206C1FC000038B74 /* d.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA08206C1FB700038B74 /* d.min.js */; };
+		2373DAB9206C1FC000038B74 /* clean.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA09206C1FB700038B74 /* clean.min.js */; };
+		2373DABA206C1FC000038B74 /* mipsasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA0A206C1FB700038B74 /* mipsasm.min.js */; };
+		2373DABB206C1FC000038B74 /* scala.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA0B206C1FB700038B74 /* scala.min.js */; };
+		2373DABC206C1FC000038B74 /* elixir.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA0C206C1FB700038B74 /* elixir.min.js */; };
+		2373DABD206C1FC000038B74 /* haml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA0D206C1FB700038B74 /* haml.min.js */; };
+		2373DABE206C1FC000038B74 /* excel.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA0E206C1FB800038B74 /* excel.min.js */; };
+		2373DABF206C1FC000038B74 /* makefile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA0F206C1FB800038B74 /* makefile.min.js */; };
+		2373DAC0206C1FC000038B74 /* arduino.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA10206C1FB800038B74 /* arduino.min.js */; };
+		2373DAC1206C1FC000038B74 /* cal.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA11206C1FB900038B74 /* cal.min.js */; };
+		2373DAC2206C1FC000038B74 /* bnf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA12206C1FB900038B74 /* bnf.min.js */; };
+		2373DAC3206C1FC000038B74 /* gcode.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA13206C1FB900038B74 /* gcode.min.js */; };
+		2373DAC4206C1FC000038B74 /* cos.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA14206C1FB900038B74 /* cos.min.js */; };
+		2373DAC5206C1FC000038B74 /* mel.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA15206C1FB900038B74 /* mel.min.js */; };
+		2373DAC6206C1FC000038B74 /* php.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA16206C1FB900038B74 /* php.min.js */; };
+		2373DAC7206C1FC000038B74 /* handlebars.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA17206C1FB900038B74 /* handlebars.min.js */; };
+		2373DAC8206C1FC000038B74 /* qml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA18206C1FB900038B74 /* qml.min.js */; };
+		2373DAC9206C1FC000038B74 /* dsconfig.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA19206C1FB900038B74 /* dsconfig.min.js */; };
+		2373DACA206C1FC000038B74 /* verilog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA1A206C1FB900038B74 /* verilog.min.js */; };
+		2373DACB206C1FC000038B74 /* mojolicious.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA1B206C1FBA00038B74 /* mojolicious.min.js */; };
+		2373DACC206C1FC000038B74 /* stylus.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA1C206C1FBA00038B74 /* stylus.min.js */; };
+		2373DACD206C1FC000038B74 /* accesslog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA1D206C1FBA00038B74 /* accesslog.min.js */; };
+		2373DACE206C1FC000038B74 /* vim.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA1E206C1FBA00038B74 /* vim.min.js */; };
+		2373DACF206C1FC000038B74 /* css.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA1F206C1FBA00038B74 /* css.min.js */; };
+		2373DAD0206C1FC000038B74 /* javascript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA20206C1FBA00038B74 /* javascript.min.js */; };
+		2373DAD1206C1FC000038B74 /* less.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA21206C1FBA00038B74 /* less.min.js */; };
+		2373DAD2206C1FC000038B74 /* nsis.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA22206C1FBA00038B74 /* nsis.min.js */; };
+		2373DAD3206C1FC000038B74 /* delphi.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA23206C1FBA00038B74 /* delphi.min.js */; };
+		2373DAD4206C1FC000038B74 /* roboconf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA24206C1FBB00038B74 /* roboconf.min.js */; };
+		2373DAD5206C1FC000038B74 /* smalltalk.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA25206C1FBB00038B74 /* smalltalk.min.js */; };
+		2373DAD6206C1FC000038B74 /* hy.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA26206C1FBB00038B74 /* hy.min.js */; };
+		2373DAD7206C1FC000038B74 /* erlang-repl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA27206C1FBB00038B74 /* erlang-repl.min.js */; };
+		2373DAD8206C1FC000038B74 /* autohotkey.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA28206C1FBB00038B74 /* autohotkey.min.js */; };
+		2373DAD9206C1FC000038B74 /* prolog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA29206C1FBB00038B74 /* prolog.min.js */; };
+		2373DADA206C1FC000038B74 /* json.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA2A206C1FBB00038B74 /* json.min.js */; };
+		2373DADB206C1FC000038B74 /* aspectj.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA2B206C1FBC00038B74 /* aspectj.min.js */; };
+		2373DADC206C1FC000038B74 /* cpp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA2C206C1FBC00038B74 /* cpp.min.js */; };
+		2373DADD206C1FC000038B74 /* livecodeserver.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA2D206C1FBC00038B74 /* livecodeserver.min.js */; };
+		2373DADE206C1FC000038B74 /* tp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA2E206C1FBC00038B74 /* tp.min.js */; };
+		2373DADF206C1FC000038B74 /* ini.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA2F206C1FBC00038B74 /* ini.min.js */; };
+		2373DAE0206C1FC000038B74 /* dart.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA30206C1FBC00038B74 /* dart.min.js */; };
+		2373DAE1206C1FC000038B74 /* crystal.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA31206C1FBC00038B74 /* crystal.min.js */; };
+		2373DAE2206C1FC000038B74 /* glsl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA32206C1FBC00038B74 /* glsl.min.js */; };
+		2373DAE3206C1FC000038B74 /* jboss-cli.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA33206C1FBD00038B74 /* jboss-cli.min.js */; };
+		2373DAE4206C1FC000038B74 /* htmlbars.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA34206C1FBD00038B74 /* htmlbars.min.js */; };
+		2373DAE5206C1FC000038B74 /* gherkin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA35206C1FBD00038B74 /* gherkin.min.js */; };
+		2373DAE6206C1FC000038B74 /* scheme.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA36206C1FBD00038B74 /* scheme.min.js */; };
+		2373DAE7206C1FC000038B74 /* django.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA37206C1FBD00038B74 /* django.min.js */; };
+		2373DAE8206C1FC000038B74 /* bash.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA38206C1FBD00038B74 /* bash.min.js */; };
+		2373DAE9206C1FC000038B74 /* julia-repl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA39206C1FBD00038B74 /* julia-repl.min.js */; };
+		2373DAEA206C1FC000038B74 /* dockerfile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA3A206C1FBD00038B74 /* dockerfile.min.js */; };
+		2373DAEB206C1FC000038B74 /* lisp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA3B206C1FBD00038B74 /* lisp.min.js */; };
+		2373DAEC206C1FC000038B74 /* actionscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA3C206C1FBE00038B74 /* actionscript.min.js */; };
+		2373DAED206C1FC000038B74 /* xquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA3D206C1FBE00038B74 /* xquery.min.js */; };
+		2373DAEE206C1FC000038B74 /* tex.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA3E206C1FBE00038B74 /* tex.min.js */; };
+		2373DAEF206C1FC000038B74 /* sml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA3F206C1FBE00038B74 /* sml.min.js */; };
+		2373DAF0206C1FC000038B74 /* swift.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA40206C1FBE00038B74 /* swift.min.js */; };
+		2373DAF1206C1FC000038B74 /* matlab.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA41206C1FBE00038B74 /* matlab.min.js */; };
+		2373DAF2206C1FC000038B74 /* livescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA42206C1FBE00038B74 /* livescript.min.js */; };
+		2373DAF3206C1FC000038B74 /* awk.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA43206C1FBE00038B74 /* awk.min.js */; };
+		2373DAF4206C1FC000038B74 /* basic.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA44206C1FBE00038B74 /* basic.min.js */; };
+		2373DAF5206C1FC000038B74 /* brainfuck.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA45206C1FBF00038B74 /* brainfuck.min.js */; };
+		2373DAF6206C1FC000038B74 /* capnproto.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA46206C1FBF00038B74 /* capnproto.min.js */; };
+		2373DAF7206C1FC000038B74 /* mercury.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA47206C1FBF00038B74 /* mercury.min.js */; };
+		2373DAF8206C1FC000038B74 /* fix.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA48206C1FBF00038B74 /* fix.min.js */; };
+		2373DAF9206C1FC000038B74 /* sqf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA49206C1FBF00038B74 /* sqf.min.js */; };
+		2373DAFA206C1FC000038B74 /* stata.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA4A206C1FBF00038B74 /* stata.min.js */; };
+		2373DAFB206C1FC000038B74 /* tcl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA4B206C1FBF00038B74 /* tcl.min.js */; };
+		2373DAFC206C1FC000038B74 /* zephir.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA4C206C1FBF00038B74 /* zephir.min.js */; };
+		2373DAFD206C1FC000038B74 /* hsp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DA4D206C1FBF00038B74 /* hsp.min.js */; };
+		2373DAFF206C1FCC00038B74 /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 2373DAFE206C1FCB00038B74 /* highlight.min.js */; };
+		2373DB04206C1FE000038B74 /* HTMLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373DB00206C1FDF00038B74 /* HTMLUtils.swift */; };
+		2373DB05206C1FE000038B74 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373DB01206C1FDF00038B74 /* Theme.swift */; };
+		2373DB06206C1FE000038B74 /* CodeAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373DB02206C1FDF00038B74 /* CodeAttributedString.swift */; };
+		2373DB07206C1FE000038B74 /* Highlightr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373DB03206C1FDF00038B74 /* Highlightr.swift */; };
+		2373DB0F206C206900038B74 /* Highlightr-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2373DB09206C206800038B74 /* Highlightr-macOS-dummy.m */; };
+		2373DB10206C206900038B74 /* Highlightr-macOS-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 2373DB0A206C206800038B74 /* Highlightr-macOS-prefix.pch */; };
+		2373DB11206C206900038B74 /* Highlightr-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2373DB0B206C206800038B74 /* Highlightr-macOS-umbrella.h */; };
+		2373DB13206C206900038B74 /* Highlightr-macOS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 2373DB0E206C206800038B74 /* Highlightr-macOS.xcconfig */; };
+		2373DB19206C20DC00038B74 /* LineNumberGutter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373DB15206C20DC00038B74 /* LineNumberGutter.swift */; };
+		2373DB1A206C20DC00038B74 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2373DB16206C20DC00038B74 /* CodeTextView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2373D8EA206C1DF700038B74 /* CodeTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CodeTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2373D8ED206C1DF700038B74 /* CodeTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeTextView.h; sourceTree = "<group>"; };
+		2373D8EE206C1DF700038B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2373D8FA206C1F7B00038B74 /* ascetic.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ascetic.min.css; sourceTree = "<group>"; };
+		2373D8FB206C1F7B00038B74 /* monokai-sublime.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "monokai-sublime.min.css"; sourceTree = "<group>"; };
+		2373D8FC206C1F7B00038B74 /* codepen-embed.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "codepen-embed.min.css"; sourceTree = "<group>"; };
+		2373D8FD206C1F7B00038B74 /* kimbie.light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = kimbie.light.min.css; sourceTree = "<group>"; };
+		2373D8FE206C1F7B00038B74 /* atelier-savanna-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-savanna-dark.min.css"; sourceTree = "<group>"; };
+		2373D8FF206C1F7B00038B74 /* darkula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = darkula.min.css; sourceTree = "<group>"; };
+		2373D900206C1F7B00038B74 /* rainbow.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rainbow.min.css; sourceTree = "<group>"; };
+		2373D901206C1F7B00038B74 /* xcode.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = xcode.min.css; sourceTree = "<group>"; };
+		2373D902206C1F7B00038B74 /* atelier-seaside-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-seaside-dark.min.css"; sourceTree = "<group>"; };
+		2373D903206C1F7B00038B74 /* atelier-sulphurpool-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-sulphurpool-dark.min.css"; sourceTree = "<group>"; };
+		2373D904206C1F7B00038B74 /* qtcreator_dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = qtcreator_dark.min.css; sourceTree = "<group>"; };
+		2373D905206C1F7C00038B74 /* tomorrow-night.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night.min.css"; sourceTree = "<group>"; };
+		2373D906206C1F7C00038B74 /* darcula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = darcula.min.css; sourceTree = "<group>"; };
+		2373D907206C1F7C00038B74 /* gruvbox-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "gruvbox-light.min.css"; sourceTree = "<group>"; };
+		2373D908206C1F7C00038B74 /* agate.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = agate.min.css; sourceTree = "<group>"; };
+		2373D909206C1F7C00038B74 /* atelier-estuary-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-estuary-dark.min.css"; sourceTree = "<group>"; };
+		2373D90A206C1F7C00038B74 /* vs.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = vs.min.css; sourceTree = "<group>"; };
+		2373D90B206C1F7C00038B74 /* school-book.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "school-book.min.css"; sourceTree = "<group>"; };
+		2373D90C206C1F7C00038B74 /* atelier-seaside-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-seaside-light.min.css"; sourceTree = "<group>"; };
+		2373D90D206C1F7C00038B74 /* atom-one-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atom-one-light.min.css"; sourceTree = "<group>"; };
+		2373D90E206C1F7C00038B74 /* pojoaque.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = pojoaque.min.css; sourceTree = "<group>"; };
+		2373D90F206C1F7C00038B74 /* paraiso-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "paraiso-light.min.css"; sourceTree = "<group>"; };
+		2373D910206C1F7C00038B74 /* atelier-plateau-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-plateau-light.min.css"; sourceTree = "<group>"; };
+		2373D911206C1F7D00038B74 /* hybrid.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = hybrid.min.css; sourceTree = "<group>"; };
+		2373D912206C1F7D00038B74 /* ocean.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ocean.min.css; sourceTree = "<group>"; };
+		2373D913206C1F7D00038B74 /* railscasts.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = railscasts.min.css; sourceTree = "<group>"; };
+		2373D914206C1F7D00038B74 /* tomorrow-night-bright.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-bright.min.css"; sourceTree = "<group>"; };
+		2373D915206C1F7D00038B74 /* atelier-plateau-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-plateau-dark.min.css"; sourceTree = "<group>"; };
+		2373D916206C1F7D00038B74 /* arta.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = arta.min.css; sourceTree = "<group>"; };
+		2373D917206C1F7D00038B74 /* atelier-heath-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-heath-dark.min.css"; sourceTree = "<group>"; };
+		2373D918206C1F7D00038B74 /* atelier-forest-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-forest-dark.min.css"; sourceTree = "<group>"; };
+		2373D919206C1F7E00038B74 /* github.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = github.min.css; sourceTree = "<group>"; };
+		2373D91A206C1F7E00038B74 /* dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = dark.min.css; sourceTree = "<group>"; };
+		2373D91B206C1F7E00038B74 /* brown-papersq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brown-papersq.png"; sourceTree = "<group>"; };
+		2373D91C206C1F7E00038B74 /* default.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.min.css; sourceTree = "<group>"; };
+		2373D91D206C1F7E00038B74 /* solarized-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "solarized-dark.min.css"; sourceTree = "<group>"; };
+		2373D91E206C1F7E00038B74 /* atelier-cave-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-cave-light.min.css"; sourceTree = "<group>"; };
+		2373D91F206C1F7E00038B74 /* atelier-dune-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-dune-light.min.css"; sourceTree = "<group>"; };
+		2373D920206C1F7F00038B74 /* atelier-lakeside-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-lakeside-dark.min.css"; sourceTree = "<group>"; };
+		2373D921206C1F7F00038B74 /* atom-one-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atom-one-dark.min.css"; sourceTree = "<group>"; };
+		2373D922206C1F7F00038B74 /* sunburst.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = sunburst.min.css; sourceTree = "<group>"; };
+		2373D923206C1F7F00038B74 /* color-brewer.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "color-brewer.min.css"; sourceTree = "<group>"; };
+		2373D924206C1F7F00038B74 /* obsidian.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = obsidian.min.css; sourceTree = "<group>"; };
+		2373D925206C1F7F00038B74 /* atelier-estuary-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-estuary-light.min.css"; sourceTree = "<group>"; };
+		2373D926206C1F7F00038B74 /* androidstudio.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = androidstudio.min.css; sourceTree = "<group>"; };
+		2373D927206C1F7F00038B74 /* arduino-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "arduino-light.min.css"; sourceTree = "<group>"; };
+		2373D928206C1F7F00038B74 /* pojoaque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pojoaque.jpg; sourceTree = "<group>"; };
+		2373D929206C1F7F00038B74 /* routeros.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = routeros.min.css; sourceTree = "<group>"; };
+		2373D92A206C1F7F00038B74 /* school-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "school-book.png"; sourceTree = "<group>"; };
+		2373D92B206C1F8000038B74 /* paraiso-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "paraiso-dark.min.css"; sourceTree = "<group>"; };
+		2373D92C206C1F8000038B74 /* tomorrow-night-blue.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-blue.min.css"; sourceTree = "<group>"; };
+		2373D92D206C1F8000038B74 /* xt256.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = xt256.min.css; sourceTree = "<group>"; };
+		2373D92E206C1F8000038B74 /* atelier-dune-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-dune-dark.min.css"; sourceTree = "<group>"; };
+		2373D92F206C1F8000038B74 /* kimbie.dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = kimbie.dark.min.css; sourceTree = "<group>"; };
+		2373D930206C1F8000038B74 /* tomorrow.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tomorrow.min.css; sourceTree = "<group>"; };
+		2373D931206C1F8000038B74 /* dracula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = dracula.min.css; sourceTree = "<group>"; };
+		2373D932206C1F8000038B74 /* mono-blue.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "mono-blue.min.css"; sourceTree = "<group>"; };
+		2373D933206C1F8000038B74 /* purebasic.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = purebasic.min.css; sourceTree = "<group>"; };
+		2373D934206C1F8000038B74 /* atelier-heath-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-heath-light.min.css"; sourceTree = "<group>"; };
+		2373D935206C1F8000038B74 /* googlecode.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = googlecode.min.css; sourceTree = "<group>"; };
+		2373D936206C1F8100038B74 /* ir-black.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ir-black.min.css"; sourceTree = "<group>"; };
+		2373D937206C1F8100038B74 /* docco.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = docco.min.css; sourceTree = "<group>"; };
+		2373D938206C1F8100038B74 /* brown-paper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "brown-paper.min.css"; sourceTree = "<group>"; };
+		2373D939206C1F8100038B74 /* far.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = far.min.css; sourceTree = "<group>"; };
+		2373D93A206C1F8100038B74 /* tomorrow-night-eighties.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-eighties.min.css"; sourceTree = "<group>"; };
+		2373D93B206C1F8200038B74 /* vs2015.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = vs2015.min.css; sourceTree = "<group>"; };
+		2373D93C206C1F8200038B74 /* atelier-sulphurpool-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-sulphurpool-light.min.css"; sourceTree = "<group>"; };
+		2373D93D206C1F8200038B74 /* atelier-cave-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-cave-dark.min.css"; sourceTree = "<group>"; };
+		2373D93E206C1F8200038B74 /* magula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = magula.min.css; sourceTree = "<group>"; };
+		2373D93F206C1F8200038B74 /* solarized-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "solarized-light.min.css"; sourceTree = "<group>"; };
+		2373D940206C1F8200038B74 /* atelier-forest-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-forest-light.min.css"; sourceTree = "<group>"; };
+		2373D941206C1F8200038B74 /* gruvbox-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "gruvbox-dark.min.css"; sourceTree = "<group>"; };
+		2373D942206C1F8200038B74 /* github-gist.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "github-gist.min.css"; sourceTree = "<group>"; };
+		2373D943206C1F8200038B74 /* atelier-savanna-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-savanna-light.min.css"; sourceTree = "<group>"; };
+		2373D944206C1F8200038B74 /* monokai.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = monokai.min.css; sourceTree = "<group>"; };
+		2373D945206C1F8200038B74 /* foundation.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = foundation.min.css; sourceTree = "<group>"; };
+		2373D946206C1F8300038B74 /* idea.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = idea.min.css; sourceTree = "<group>"; };
+		2373D947206C1F8300038B74 /* qtcreator_light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = qtcreator_light.min.css; sourceTree = "<group>"; };
+		2373D948206C1F8400038B74 /* atelier-lakeside-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-lakeside-light.min.css"; sourceTree = "<group>"; };
+		2373D949206C1F8400038B74 /* zenburn.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = zenburn.min.css; sourceTree = "<group>"; };
+		2373D94A206C1F8400038B74 /* grayscale.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = grayscale.min.css; sourceTree = "<group>"; };
+		2373D94B206C1F8400038B74 /* hopscotch.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = hopscotch.min.css; sourceTree = "<group>"; };
+		2373D99E206C1FAC00038B74 /* gams.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gams.min.js; sourceTree = "<group>"; };
+		2373D99F206C1FAC00038B74 /* gradle.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gradle.min.js; sourceTree = "<group>"; };
+		2373D9A0206C1FAC00038B74 /* mizar.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mizar.min.js; sourceTree = "<group>"; };
+		2373D9A1206C1FAD00038B74 /* gauss.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gauss.min.js; sourceTree = "<group>"; };
+		2373D9A2206C1FAD00038B74 /* flix.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = flix.min.js; sourceTree = "<group>"; };
+		2373D9A3206C1FAD00038B74 /* haxe.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haxe.min.js; sourceTree = "<group>"; };
+		2373D9A4206C1FAD00038B74 /* n1ql.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = n1ql.min.js; sourceTree = "<group>"; };
+		2373D9A5206C1FAD00038B74 /* nimrod.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nimrod.min.js; sourceTree = "<group>"; };
+		2373D9A6206C1FAD00038B74 /* nix.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nix.min.js; sourceTree = "<group>"; };
+		2373D9A7206C1FAD00038B74 /* objectivec.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = objectivec.min.js; sourceTree = "<group>"; };
+		2373D9A8206C1FAD00038B74 /* markdown.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = markdown.min.js; sourceTree = "<group>"; };
+		2373D9A9206C1FAD00038B74 /* irpf90.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = irpf90.min.js; sourceTree = "<group>"; };
+		2373D9AA206C1FAD00038B74 /* ldif.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ldif.min.js; sourceTree = "<group>"; };
+		2373D9AB206C1FAD00038B74 /* puppet.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = puppet.min.js; sourceTree = "<group>"; };
+		2373D9AC206C1FAD00038B74 /* coq.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = coq.min.js; sourceTree = "<group>"; };
+		2373D9AD206C1FAE00038B74 /* leaf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = leaf.min.js; sourceTree = "<group>"; };
+		2373D9AE206C1FAE00038B74 /* monkey.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = monkey.min.js; sourceTree = "<group>"; };
+		2373D9AF206C1FAE00038B74 /* rib.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rib.min.js; sourceTree = "<group>"; };
+		2373D9B0206C1FAE00038B74 /* sql.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sql.min.js; sourceTree = "<group>"; };
+		2373D9B1206C1FAE00038B74 /* vhdl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vhdl.min.js; sourceTree = "<group>"; };
+		2373D9B2206C1FAE00038B74 /* yaml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = yaml.min.js; sourceTree = "<group>"; };
+		2373D9B3206C1FAE00038B74 /* processing.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = processing.min.js; sourceTree = "<group>"; };
+		2373D9B4206C1FAE00038B74 /* cs.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cs.min.js; sourceTree = "<group>"; };
+		2373D9B5206C1FAE00038B74 /* diff.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = diff.min.js; sourceTree = "<group>"; };
+		2373D9B6206C1FAE00038B74 /* dts.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dts.min.js; sourceTree = "<group>"; };
+		2373D9B7206C1FAE00038B74 /* python.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = python.min.js; sourceTree = "<group>"; };
+		2373D9B8206C1FAE00038B74 /* subunit.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = subunit.min.js; sourceTree = "<group>"; };
+		2373D9B9206C1FAF00038B74 /* haskell.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haskell.min.js; sourceTree = "<group>"; };
+		2373D9BA206C1FAF00038B74 /* axapta.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = axapta.min.js; sourceTree = "<group>"; };
+		2373D9BB206C1FAF00038B74 /* groovy.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = groovy.min.js; sourceTree = "<group>"; };
+		2373D9BC206C1FAF00038B74 /* crmsh.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = crmsh.min.js; sourceTree = "<group>"; };
+		2373D9BD206C1FAF00038B74 /* inform7.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inform7.min.js; sourceTree = "<group>"; };
+		2373D9BE206C1FAF00038B74 /* dns.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dns.min.js; sourceTree = "<group>"; };
+		2373D9BF206C1FAF00038B74 /* pony.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pony.min.js; sourceTree = "<group>"; };
+		2373D9C0206C1FAF00038B74 /* openscad.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = openscad.min.js; sourceTree = "<group>"; };
+		2373D9C1206C1FAF00038B74 /* powershell.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = powershell.min.js; sourceTree = "<group>"; };
+		2373D9C2206C1FAF00038B74 /* protobuf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = protobuf.min.js; sourceTree = "<group>"; };
+		2373D9C3206C1FB000038B74 /* thrift.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = thrift.min.js; sourceTree = "<group>"; };
+		2373D9C4206C1FB000038B74 /* typescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typescript.min.js; sourceTree = "<group>"; };
+		2373D9C5206C1FB000038B74 /* dos.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dos.min.js; sourceTree = "<group>"; };
+		2373D9C6206C1FB000038B74 /* erlang.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = erlang.min.js; sourceTree = "<group>"; };
+		2373D9C7206C1FB000038B74 /* clojure-repl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "clojure-repl.min.js"; sourceTree = "<group>"; };
+		2373D9C8206C1FB000038B74 /* perl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = perl.min.js; sourceTree = "<group>"; };
+		2373D9C9206C1FB000038B74 /* pf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pf.min.js; sourceTree = "<group>"; };
+		2373D9CA206C1FB000038B74 /* rsl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rsl.min.js; sourceTree = "<group>"; };
+		2373D9CB206C1FB000038B74 /* profile.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = profile.min.js; sourceTree = "<group>"; };
+		2373D9CC206C1FB000038B74 /* xml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xml.min.js; sourceTree = "<group>"; };
+		2373D9CD206C1FB100038B74 /* julia.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = julia.min.js; sourceTree = "<group>"; };
+		2373D9CE206C1FB100038B74 /* ada.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ada.min.js; sourceTree = "<group>"; };
+		2373D9CF206C1FB100038B74 /* autoit.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autoit.min.js; sourceTree = "<group>"; };
+		2373D9D0206C1FB100038B74 /* parser3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = parser3.min.js; sourceTree = "<group>"; };
+		2373D9D1206C1FB100038B74 /* lua.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lua.min.js; sourceTree = "<group>"; };
+		2373D9D2206C1FB100038B74 /* stan.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stan.min.js; sourceTree = "<group>"; };
+		2373D9D3206C1FB100038B74 /* golo.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = golo.min.js; sourceTree = "<group>"; };
+		2373D9D4206C1FB100038B74 /* q.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = q.min.js; sourceTree = "<group>"; };
+		2373D9D5206C1FB100038B74 /* r.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = r.min.js; sourceTree = "<group>"; };
+		2373D9D6206C1FB100038B74 /* applescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = applescript.min.js; sourceTree = "<group>"; };
+		2373D9D7206C1FB200038B74 /* cmake.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cmake.min.js; sourceTree = "<group>"; };
+		2373D9D8206C1FB200038B74 /* vbscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vbscript.min.js; sourceTree = "<group>"; };
+		2373D9D9206C1FB200038B74 /* http.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = http.min.js; sourceTree = "<group>"; };
+		2373D9DA206C1FB200038B74 /* nginx.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nginx.min.js; sourceTree = "<group>"; };
+		2373D9DB206C1FB200038B74 /* ocaml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ocaml.min.js; sourceTree = "<group>"; };
+		2373D9DC206C1FB200038B74 /* mathematica.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mathematica.min.js; sourceTree = "<group>"; };
+		2373D9DD206C1FB200038B74 /* vala.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vala.min.js; sourceTree = "<group>"; };
+		2373D9DE206C1FB200038B74 /* taggerscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = taggerscript.min.js; sourceTree = "<group>"; };
+		2373D9DF206C1FB200038B74 /* twig.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = twig.min.js; sourceTree = "<group>"; };
+		2373D9E0206C1FB200038B74 /* ebnf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ebnf.min.js; sourceTree = "<group>"; };
+		2373D9E1206C1FB300038B74 /* elm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = elm.min.js; sourceTree = "<group>"; };
+		2373D9E2206C1FB300038B74 /* rust.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rust.min.js; sourceTree = "<group>"; };
+		2373D9E3206C1FB300038B74 /* x86asm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = x86asm.min.js; sourceTree = "<group>"; };
+		2373D9E4206C1FB300038B74 /* oxygene.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = oxygene.min.js; sourceTree = "<group>"; };
+		2373D9E5206C1FB300038B74 /* llvm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = llvm.min.js; sourceTree = "<group>"; };
+		2373D9E6206C1FB300038B74 /* csp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = csp.min.js; sourceTree = "<group>"; };
+		2373D9E7206C1FB300038B74 /* scilab.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scilab.min.js; sourceTree = "<group>"; };
+		2373D9E8206C1FB300038B74 /* ruleslanguage.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ruleslanguage.min.js; sourceTree = "<group>"; };
+		2373D9E9206C1FB300038B74 /* vbnet.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vbnet.min.js; sourceTree = "<group>"; };
+		2373D9EA206C1FB300038B74 /* go.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = go.min.js; sourceTree = "<group>"; };
+		2373D9EB206C1FB400038B74 /* 1c.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 1c.min.js; sourceTree = "<group>"; };
+		2373D9EC206C1FB400038B74 /* fortran.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fortran.min.js; sourceTree = "<group>"; };
+		2373D9ED206C1FB400038B74 /* ruby.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ruby.min.js; sourceTree = "<group>"; };
+		2373D9EE206C1FB400038B74 /* armasm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = armasm.min.js; sourceTree = "<group>"; };
+		2373D9EF206C1FB400038B74 /* vbscript-html.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "vbscript-html.min.js"; sourceTree = "<group>"; };
+		2373D9F0206C1FB400038B74 /* lsl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lsl.min.js; sourceTree = "<group>"; };
+		2373D9F1206C1FB400038B74 /* java.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = java.min.js; sourceTree = "<group>"; };
+		2373D9F2206C1FB400038B74 /* clojure.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = clojure.min.js; sourceTree = "<group>"; };
+		2373D9F3206C1FB400038B74 /* avrasm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = avrasm.min.js; sourceTree = "<group>"; };
+		2373D9F4206C1FB400038B74 /* lasso.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lasso.min.js; sourceTree = "<group>"; };
+		2373D9F5206C1FB400038B74 /* fsharp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fsharp.min.js; sourceTree = "<group>"; };
+		2373D9F6206C1FB500038B74 /* coffeescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = coffeescript.min.js; sourceTree = "<group>"; };
+		2373D9F7206C1FB500038B74 /* smali.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smali.min.js; sourceTree = "<group>"; };
+		2373D9F8206C1FB500038B74 /* ceylon.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ceylon.min.js; sourceTree = "<group>"; };
+		2373D9F9206C1FB500038B74 /* moonscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = moonscript.min.js; sourceTree = "<group>"; };
+		2373D9FA206C1FB500038B74 /* purebasic.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = purebasic.min.js; sourceTree = "<group>"; };
+		2373D9FB206C1FB600038B74 /* scss.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scss.min.js; sourceTree = "<group>"; };
+		2373D9FC206C1FB600038B74 /* shell.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shell.min.js; sourceTree = "<group>"; };
+		2373D9FD206C1FB600038B74 /* step21.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = step21.min.js; sourceTree = "<group>"; };
+		2373D9FE206C1FB600038B74 /* tap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tap.min.js; sourceTree = "<group>"; };
+		2373D9FF206C1FB600038B74 /* kotlin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = kotlin.min.js; sourceTree = "<group>"; };
+		2373DA00206C1FB600038B74 /* xl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xl.min.js; sourceTree = "<group>"; };
+		2373DA01206C1FB600038B74 /* apache.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = apache.min.js; sourceTree = "<group>"; };
+		2373DA02206C1FB600038B74 /* erb.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = erb.min.js; sourceTree = "<group>"; };
+		2373DA03206C1FB600038B74 /* maxima.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = maxima.min.js; sourceTree = "<group>"; };
+		2373DA04206C1FB600038B74 /* asciidoc.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = asciidoc.min.js; sourceTree = "<group>"; };
+		2373DA05206C1FB700038B74 /* routeros.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = routeros.min.js; sourceTree = "<group>"; };
+		2373DA06206C1FB700038B74 /* abnf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = abnf.min.js; sourceTree = "<group>"; };
+		2373DA07206C1FB700038B74 /* dust.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dust.min.js; sourceTree = "<group>"; };
+		2373DA08206C1FB700038B74 /* d.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = d.min.js; sourceTree = "<group>"; };
+		2373DA09206C1FB700038B74 /* clean.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = clean.min.js; sourceTree = "<group>"; };
+		2373DA0A206C1FB700038B74 /* mipsasm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mipsasm.min.js; sourceTree = "<group>"; };
+		2373DA0B206C1FB700038B74 /* scala.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scala.min.js; sourceTree = "<group>"; };
+		2373DA0C206C1FB700038B74 /* elixir.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = elixir.min.js; sourceTree = "<group>"; };
+		2373DA0D206C1FB700038B74 /* haml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haml.min.js; sourceTree = "<group>"; };
+		2373DA0E206C1FB800038B74 /* excel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = excel.min.js; sourceTree = "<group>"; };
+		2373DA0F206C1FB800038B74 /* makefile.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = makefile.min.js; sourceTree = "<group>"; };
+		2373DA10206C1FB800038B74 /* arduino.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = arduino.min.js; sourceTree = "<group>"; };
+		2373DA11206C1FB900038B74 /* cal.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cal.min.js; sourceTree = "<group>"; };
+		2373DA12206C1FB900038B74 /* bnf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bnf.min.js; sourceTree = "<group>"; };
+		2373DA13206C1FB900038B74 /* gcode.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gcode.min.js; sourceTree = "<group>"; };
+		2373DA14206C1FB900038B74 /* cos.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cos.min.js; sourceTree = "<group>"; };
+		2373DA15206C1FB900038B74 /* mel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mel.min.js; sourceTree = "<group>"; };
+		2373DA16206C1FB900038B74 /* php.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = php.min.js; sourceTree = "<group>"; };
+		2373DA17206C1FB900038B74 /* handlebars.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = handlebars.min.js; sourceTree = "<group>"; };
+		2373DA18206C1FB900038B74 /* qml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = qml.min.js; sourceTree = "<group>"; };
+		2373DA19206C1FB900038B74 /* dsconfig.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dsconfig.min.js; sourceTree = "<group>"; };
+		2373DA1A206C1FB900038B74 /* verilog.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = verilog.min.js; sourceTree = "<group>"; };
+		2373DA1B206C1FBA00038B74 /* mojolicious.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mojolicious.min.js; sourceTree = "<group>"; };
+		2373DA1C206C1FBA00038B74 /* stylus.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stylus.min.js; sourceTree = "<group>"; };
+		2373DA1D206C1FBA00038B74 /* accesslog.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accesslog.min.js; sourceTree = "<group>"; };
+		2373DA1E206C1FBA00038B74 /* vim.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vim.min.js; sourceTree = "<group>"; };
+		2373DA1F206C1FBA00038B74 /* css.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = css.min.js; sourceTree = "<group>"; };
+		2373DA20206C1FBA00038B74 /* javascript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascript.min.js; sourceTree = "<group>"; };
+		2373DA21206C1FBA00038B74 /* less.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = less.min.js; sourceTree = "<group>"; };
+		2373DA22206C1FBA00038B74 /* nsis.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nsis.min.js; sourceTree = "<group>"; };
+		2373DA23206C1FBA00038B74 /* delphi.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = delphi.min.js; sourceTree = "<group>"; };
+		2373DA24206C1FBB00038B74 /* roboconf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = roboconf.min.js; sourceTree = "<group>"; };
+		2373DA25206C1FBB00038B74 /* smalltalk.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smalltalk.min.js; sourceTree = "<group>"; };
+		2373DA26206C1FBB00038B74 /* hy.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hy.min.js; sourceTree = "<group>"; };
+		2373DA27206C1FBB00038B74 /* erlang-repl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "erlang-repl.min.js"; sourceTree = "<group>"; };
+		2373DA28206C1FBB00038B74 /* autohotkey.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autohotkey.min.js; sourceTree = "<group>"; };
+		2373DA29206C1FBB00038B74 /* prolog.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = prolog.min.js; sourceTree = "<group>"; };
+		2373DA2A206C1FBB00038B74 /* json.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json.min.js; sourceTree = "<group>"; };
+		2373DA2B206C1FBC00038B74 /* aspectj.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = aspectj.min.js; sourceTree = "<group>"; };
+		2373DA2C206C1FBC00038B74 /* cpp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cpp.min.js; sourceTree = "<group>"; };
+		2373DA2D206C1FBC00038B74 /* livecodeserver.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = livecodeserver.min.js; sourceTree = "<group>"; };
+		2373DA2E206C1FBC00038B74 /* tp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tp.min.js; sourceTree = "<group>"; };
+		2373DA2F206C1FBC00038B74 /* ini.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ini.min.js; sourceTree = "<group>"; };
+		2373DA30206C1FBC00038B74 /* dart.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dart.min.js; sourceTree = "<group>"; };
+		2373DA31206C1FBC00038B74 /* crystal.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = crystal.min.js; sourceTree = "<group>"; };
+		2373DA32206C1FBC00038B74 /* glsl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = glsl.min.js; sourceTree = "<group>"; };
+		2373DA33206C1FBD00038B74 /* jboss-cli.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jboss-cli.min.js"; sourceTree = "<group>"; };
+		2373DA34206C1FBD00038B74 /* htmlbars.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = htmlbars.min.js; sourceTree = "<group>"; };
+		2373DA35206C1FBD00038B74 /* gherkin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gherkin.min.js; sourceTree = "<group>"; };
+		2373DA36206C1FBD00038B74 /* scheme.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scheme.min.js; sourceTree = "<group>"; };
+		2373DA37206C1FBD00038B74 /* django.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = django.min.js; sourceTree = "<group>"; };
+		2373DA38206C1FBD00038B74 /* bash.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bash.min.js; sourceTree = "<group>"; };
+		2373DA39206C1FBD00038B74 /* julia-repl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "julia-repl.min.js"; sourceTree = "<group>"; };
+		2373DA3A206C1FBD00038B74 /* dockerfile.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dockerfile.min.js; sourceTree = "<group>"; };
+		2373DA3B206C1FBD00038B74 /* lisp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lisp.min.js; sourceTree = "<group>"; };
+		2373DA3C206C1FBE00038B74 /* actionscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = actionscript.min.js; sourceTree = "<group>"; };
+		2373DA3D206C1FBE00038B74 /* xquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xquery.min.js; sourceTree = "<group>"; };
+		2373DA3E206C1FBE00038B74 /* tex.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tex.min.js; sourceTree = "<group>"; };
+		2373DA3F206C1FBE00038B74 /* sml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sml.min.js; sourceTree = "<group>"; };
+		2373DA40206C1FBE00038B74 /* swift.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = swift.min.js; sourceTree = "<group>"; };
+		2373DA41206C1FBE00038B74 /* matlab.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = matlab.min.js; sourceTree = "<group>"; };
+		2373DA42206C1FBE00038B74 /* livescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = livescript.min.js; sourceTree = "<group>"; };
+		2373DA43206C1FBE00038B74 /* awk.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = awk.min.js; sourceTree = "<group>"; };
+		2373DA44206C1FBE00038B74 /* basic.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = basic.min.js; sourceTree = "<group>"; };
+		2373DA45206C1FBF00038B74 /* brainfuck.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = brainfuck.min.js; sourceTree = "<group>"; };
+		2373DA46206C1FBF00038B74 /* capnproto.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = capnproto.min.js; sourceTree = "<group>"; };
+		2373DA47206C1FBF00038B74 /* mercury.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mercury.min.js; sourceTree = "<group>"; };
+		2373DA48206C1FBF00038B74 /* fix.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fix.min.js; sourceTree = "<group>"; };
+		2373DA49206C1FBF00038B74 /* sqf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sqf.min.js; sourceTree = "<group>"; };
+		2373DA4A206C1FBF00038B74 /* stata.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stata.min.js; sourceTree = "<group>"; };
+		2373DA4B206C1FBF00038B74 /* tcl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tcl.min.js; sourceTree = "<group>"; };
+		2373DA4C206C1FBF00038B74 /* zephir.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zephir.min.js; sourceTree = "<group>"; };
+		2373DA4D206C1FBF00038B74 /* hsp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hsp.min.js; sourceTree = "<group>"; };
+		2373DAFE206C1FCB00038B74 /* highlight.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.min.js; sourceTree = "<group>"; };
+		2373DB00206C1FDF00038B74 /* HTMLUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLUtils.swift; sourceTree = "<group>"; };
+		2373DB01206C1FDF00038B74 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2373DB02206C1FDF00038B74 /* CodeAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeAttributedString.swift; sourceTree = "<group>"; };
+		2373DB03206C1FDF00038B74 /* Highlightr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Highlightr.swift; sourceTree = "<group>"; };
+		2373DB09206C206800038B74 /* Highlightr-macOS-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Highlightr-macOS-dummy.m"; sourceTree = "<group>"; };
+		2373DB0A206C206800038B74 /* Highlightr-macOS-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Highlightr-macOS-prefix.pch"; sourceTree = "<group>"; };
+		2373DB0B206C206800038B74 /* Highlightr-macOS-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Highlightr-macOS-umbrella.h"; sourceTree = "<group>"; };
+		2373DB0E206C206800038B74 /* Highlightr-macOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Highlightr-macOS.xcconfig"; sourceTree = "<group>"; };
+		2373DB15206C20DC00038B74 /* LineNumberGutter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNumberGutter.swift; sourceTree = "<group>"; };
+		2373DB16206C20DC00038B74 /* CodeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2373D8E6206C1DF700038B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2373D8E0206C1DF700038B74 = {
+			isa = PBXGroup;
+			children = (
+				2373D8EC206C1DF700038B74 /* CodeTextView */,
+				2373D8EB206C1DF700038B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2373D8EB206C1DF700038B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2373D8EA206C1DF700038B74 /* CodeTextView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2373D8EC206C1DF700038B74 /* CodeTextView */ = {
+			isa = PBXGroup;
+			children = (
+				2373DB14206C20AA00038B74 /* CodeTextView */,
+				2373D8F5206C1E3400038B74 /* Highlightr */,
+				2373D8ED206C1DF700038B74 /* CodeTextView.h */,
+				2373D8EE206C1DF700038B74 /* Info.plist */,
+			);
+			path = CodeTextView;
+			sourceTree = "<group>";
+		};
+		2373D8F5206C1E3400038B74 /* Highlightr */ = {
+			isa = PBXGroup;
+			children = (
+				2373DB08206C202000038B74 /* Support Files */,
+				2373DB02206C1FDF00038B74 /* CodeAttributedString.swift */,
+				2373DB03206C1FDF00038B74 /* Highlightr.swift */,
+				2373DB00206C1FDF00038B74 /* HTMLUtils.swift */,
+				2373DB01206C1FDF00038B74 /* Theme.swift */,
+				2373D8F6206C1E6900038B74 /* Resources */,
+			);
+			path = Highlightr;
+			sourceTree = "<group>";
+		};
+		2373D8F6206C1E6900038B74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2373D8F8206C1F1E00038B74 /* styles */,
+				2373D8F7206C1ED800038B74 /* Highlighter */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2373D8F7206C1ED800038B74 /* Highlighter */ = {
+			isa = PBXGroup;
+			children = (
+				2373DAFE206C1FCB00038B74 /* highlight.min.js */,
+				2373D8F9206C1F2E00038B74 /* languages */,
+			);
+			path = Highlighter;
+			sourceTree = "<group>";
+		};
+		2373D8F8206C1F1E00038B74 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				2373D908206C1F7C00038B74 /* agate.min.css */,
+				2373D926206C1F7F00038B74 /* androidstudio.min.css */,
+				2373D927206C1F7F00038B74 /* arduino-light.min.css */,
+				2373D916206C1F7D00038B74 /* arta.min.css */,
+				2373D8FA206C1F7B00038B74 /* ascetic.min.css */,
+				2373D93D206C1F8200038B74 /* atelier-cave-dark.min.css */,
+				2373D91E206C1F7E00038B74 /* atelier-cave-light.min.css */,
+				2373D92E206C1F8000038B74 /* atelier-dune-dark.min.css */,
+				2373D91F206C1F7E00038B74 /* atelier-dune-light.min.css */,
+				2373D909206C1F7C00038B74 /* atelier-estuary-dark.min.css */,
+				2373D925206C1F7F00038B74 /* atelier-estuary-light.min.css */,
+				2373D918206C1F7D00038B74 /* atelier-forest-dark.min.css */,
+				2373D940206C1F8200038B74 /* atelier-forest-light.min.css */,
+				2373D917206C1F7D00038B74 /* atelier-heath-dark.min.css */,
+				2373D934206C1F8000038B74 /* atelier-heath-light.min.css */,
+				2373D920206C1F7F00038B74 /* atelier-lakeside-dark.min.css */,
+				2373D948206C1F8400038B74 /* atelier-lakeside-light.min.css */,
+				2373D915206C1F7D00038B74 /* atelier-plateau-dark.min.css */,
+				2373D910206C1F7C00038B74 /* atelier-plateau-light.min.css */,
+				2373D8FE206C1F7B00038B74 /* atelier-savanna-dark.min.css */,
+				2373D943206C1F8200038B74 /* atelier-savanna-light.min.css */,
+				2373D902206C1F7B00038B74 /* atelier-seaside-dark.min.css */,
+				2373D90C206C1F7C00038B74 /* atelier-seaside-light.min.css */,
+				2373D903206C1F7B00038B74 /* atelier-sulphurpool-dark.min.css */,
+				2373D93C206C1F8200038B74 /* atelier-sulphurpool-light.min.css */,
+				2373D921206C1F7F00038B74 /* atom-one-dark.min.css */,
+				2373D90D206C1F7C00038B74 /* atom-one-light.min.css */,
+				2373D938206C1F8100038B74 /* brown-paper.min.css */,
+				2373D91B206C1F7E00038B74 /* brown-papersq.png */,
+				2373D8FC206C1F7B00038B74 /* codepen-embed.min.css */,
+				2373D923206C1F7F00038B74 /* color-brewer.min.css */,
+				2373D906206C1F7C00038B74 /* darcula.min.css */,
+				2373D91A206C1F7E00038B74 /* dark.min.css */,
+				2373D8FF206C1F7B00038B74 /* darkula.min.css */,
+				2373D91C206C1F7E00038B74 /* default.min.css */,
+				2373D937206C1F8100038B74 /* docco.min.css */,
+				2373D931206C1F8000038B74 /* dracula.min.css */,
+				2373D939206C1F8100038B74 /* far.min.css */,
+				2373D945206C1F8200038B74 /* foundation.min.css */,
+				2373D942206C1F8200038B74 /* github-gist.min.css */,
+				2373D919206C1F7E00038B74 /* github.min.css */,
+				2373D935206C1F8000038B74 /* googlecode.min.css */,
+				2373D94A206C1F8400038B74 /* grayscale.min.css */,
+				2373D941206C1F8200038B74 /* gruvbox-dark.min.css */,
+				2373D907206C1F7C00038B74 /* gruvbox-light.min.css */,
+				2373D94B206C1F8400038B74 /* hopscotch.min.css */,
+				2373D911206C1F7D00038B74 /* hybrid.min.css */,
+				2373D946206C1F8300038B74 /* idea.min.css */,
+				2373D936206C1F8100038B74 /* ir-black.min.css */,
+				2373D92F206C1F8000038B74 /* kimbie.dark.min.css */,
+				2373D8FD206C1F7B00038B74 /* kimbie.light.min.css */,
+				2373D93E206C1F8200038B74 /* magula.min.css */,
+				2373D932206C1F8000038B74 /* mono-blue.min.css */,
+				2373D8FB206C1F7B00038B74 /* monokai-sublime.min.css */,
+				2373D944206C1F8200038B74 /* monokai.min.css */,
+				2373D924206C1F7F00038B74 /* obsidian.min.css */,
+				2373D912206C1F7D00038B74 /* ocean.min.css */,
+				2373D92B206C1F8000038B74 /* paraiso-dark.min.css */,
+				2373D90F206C1F7C00038B74 /* paraiso-light.min.css */,
+				2373D928206C1F7F00038B74 /* pojoaque.jpg */,
+				2373D90E206C1F7C00038B74 /* pojoaque.min.css */,
+				2373D933206C1F8000038B74 /* purebasic.min.css */,
+				2373D904206C1F7B00038B74 /* qtcreator_dark.min.css */,
+				2373D947206C1F8300038B74 /* qtcreator_light.min.css */,
+				2373D913206C1F7D00038B74 /* railscasts.min.css */,
+				2373D900206C1F7B00038B74 /* rainbow.min.css */,
+				2373D929206C1F7F00038B74 /* routeros.min.css */,
+				2373D90B206C1F7C00038B74 /* school-book.min.css */,
+				2373D92A206C1F7F00038B74 /* school-book.png */,
+				2373D91D206C1F7E00038B74 /* solarized-dark.min.css */,
+				2373D93F206C1F8200038B74 /* solarized-light.min.css */,
+				2373D922206C1F7F00038B74 /* sunburst.min.css */,
+				2373D92C206C1F8000038B74 /* tomorrow-night-blue.min.css */,
+				2373D914206C1F7D00038B74 /* tomorrow-night-bright.min.css */,
+				2373D93A206C1F8100038B74 /* tomorrow-night-eighties.min.css */,
+				2373D905206C1F7C00038B74 /* tomorrow-night.min.css */,
+				2373D930206C1F8000038B74 /* tomorrow.min.css */,
+				2373D90A206C1F7C00038B74 /* vs.min.css */,
+				2373D93B206C1F8200038B74 /* vs2015.min.css */,
+				2373D901206C1F7B00038B74 /* xcode.min.css */,
+				2373D92D206C1F8000038B74 /* xt256.min.css */,
+				2373D949206C1F8400038B74 /* zenburn.min.css */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+		2373D8F9206C1F2E00038B74 /* languages */ = {
+			isa = PBXGroup;
+			children = (
+				2373D9EB206C1FB400038B74 /* 1c.min.js */,
+				2373DA06206C1FB700038B74 /* abnf.min.js */,
+				2373DA1D206C1FBA00038B74 /* accesslog.min.js */,
+				2373DA3C206C1FBE00038B74 /* actionscript.min.js */,
+				2373D9CE206C1FB100038B74 /* ada.min.js */,
+				2373DA01206C1FB600038B74 /* apache.min.js */,
+				2373D9D6206C1FB100038B74 /* applescript.min.js */,
+				2373DA10206C1FB800038B74 /* arduino.min.js */,
+				2373D9EE206C1FB400038B74 /* armasm.min.js */,
+				2373DA04206C1FB600038B74 /* asciidoc.min.js */,
+				2373DA2B206C1FBC00038B74 /* aspectj.min.js */,
+				2373DA28206C1FBB00038B74 /* autohotkey.min.js */,
+				2373D9CF206C1FB100038B74 /* autoit.min.js */,
+				2373D9F3206C1FB400038B74 /* avrasm.min.js */,
+				2373DA43206C1FBE00038B74 /* awk.min.js */,
+				2373D9BA206C1FAF00038B74 /* axapta.min.js */,
+				2373DA38206C1FBD00038B74 /* bash.min.js */,
+				2373DA44206C1FBE00038B74 /* basic.min.js */,
+				2373DA12206C1FB900038B74 /* bnf.min.js */,
+				2373DA45206C1FBF00038B74 /* brainfuck.min.js */,
+				2373DA11206C1FB900038B74 /* cal.min.js */,
+				2373DA46206C1FBF00038B74 /* capnproto.min.js */,
+				2373D9F8206C1FB500038B74 /* ceylon.min.js */,
+				2373DA09206C1FB700038B74 /* clean.min.js */,
+				2373D9C7206C1FB000038B74 /* clojure-repl.min.js */,
+				2373D9F2206C1FB400038B74 /* clojure.min.js */,
+				2373D9D7206C1FB200038B74 /* cmake.min.js */,
+				2373D9F6206C1FB500038B74 /* coffeescript.min.js */,
+				2373D9AC206C1FAD00038B74 /* coq.min.js */,
+				2373DA14206C1FB900038B74 /* cos.min.js */,
+				2373DA2C206C1FBC00038B74 /* cpp.min.js */,
+				2373D9BC206C1FAF00038B74 /* crmsh.min.js */,
+				2373DA31206C1FBC00038B74 /* crystal.min.js */,
+				2373D9B4206C1FAE00038B74 /* cs.min.js */,
+				2373D9E6206C1FB300038B74 /* csp.min.js */,
+				2373DA1F206C1FBA00038B74 /* css.min.js */,
+				2373DA08206C1FB700038B74 /* d.min.js */,
+				2373DA30206C1FBC00038B74 /* dart.min.js */,
+				2373DA23206C1FBA00038B74 /* delphi.min.js */,
+				2373D9B5206C1FAE00038B74 /* diff.min.js */,
+				2373DA37206C1FBD00038B74 /* django.min.js */,
+				2373D9BE206C1FAF00038B74 /* dns.min.js */,
+				2373DA3A206C1FBD00038B74 /* dockerfile.min.js */,
+				2373D9C5206C1FB000038B74 /* dos.min.js */,
+				2373DA19206C1FB900038B74 /* dsconfig.min.js */,
+				2373D9B6206C1FAE00038B74 /* dts.min.js */,
+				2373DA07206C1FB700038B74 /* dust.min.js */,
+				2373D9E0206C1FB200038B74 /* ebnf.min.js */,
+				2373DA0C206C1FB700038B74 /* elixir.min.js */,
+				2373D9E1206C1FB300038B74 /* elm.min.js */,
+				2373DA02206C1FB600038B74 /* erb.min.js */,
+				2373DA27206C1FBB00038B74 /* erlang-repl.min.js */,
+				2373D9C6206C1FB000038B74 /* erlang.min.js */,
+				2373DA0E206C1FB800038B74 /* excel.min.js */,
+				2373DA48206C1FBF00038B74 /* fix.min.js */,
+				2373D9A2206C1FAD00038B74 /* flix.min.js */,
+				2373D9EC206C1FB400038B74 /* fortran.min.js */,
+				2373D9F5206C1FB400038B74 /* fsharp.min.js */,
+				2373D99E206C1FAC00038B74 /* gams.min.js */,
+				2373D9A1206C1FAD00038B74 /* gauss.min.js */,
+				2373DA13206C1FB900038B74 /* gcode.min.js */,
+				2373DA35206C1FBD00038B74 /* gherkin.min.js */,
+				2373DA32206C1FBC00038B74 /* glsl.min.js */,
+				2373D9EA206C1FB300038B74 /* go.min.js */,
+				2373D9D3206C1FB100038B74 /* golo.min.js */,
+				2373D99F206C1FAC00038B74 /* gradle.min.js */,
+				2373D9BB206C1FAF00038B74 /* groovy.min.js */,
+				2373DA0D206C1FB700038B74 /* haml.min.js */,
+				2373DA17206C1FB900038B74 /* handlebars.min.js */,
+				2373D9B9206C1FAF00038B74 /* haskell.min.js */,
+				2373D9A3206C1FAD00038B74 /* haxe.min.js */,
+				2373DA4D206C1FBF00038B74 /* hsp.min.js */,
+				2373DA34206C1FBD00038B74 /* htmlbars.min.js */,
+				2373D9D9206C1FB200038B74 /* http.min.js */,
+				2373DA26206C1FBB00038B74 /* hy.min.js */,
+				2373D9BD206C1FAF00038B74 /* inform7.min.js */,
+				2373DA2F206C1FBC00038B74 /* ini.min.js */,
+				2373D9A9206C1FAD00038B74 /* irpf90.min.js */,
+				2373D9F1206C1FB400038B74 /* java.min.js */,
+				2373DA20206C1FBA00038B74 /* javascript.min.js */,
+				2373DA33206C1FBD00038B74 /* jboss-cli.min.js */,
+				2373DA2A206C1FBB00038B74 /* json.min.js */,
+				2373DA39206C1FBD00038B74 /* julia-repl.min.js */,
+				2373D9CD206C1FB100038B74 /* julia.min.js */,
+				2373D9FF206C1FB600038B74 /* kotlin.min.js */,
+				2373D9F4206C1FB400038B74 /* lasso.min.js */,
+				2373D9AA206C1FAD00038B74 /* ldif.min.js */,
+				2373D9AD206C1FAE00038B74 /* leaf.min.js */,
+				2373DA21206C1FBA00038B74 /* less.min.js */,
+				2373DA3B206C1FBD00038B74 /* lisp.min.js */,
+				2373DA2D206C1FBC00038B74 /* livecodeserver.min.js */,
+				2373DA42206C1FBE00038B74 /* livescript.min.js */,
+				2373D9E5206C1FB300038B74 /* llvm.min.js */,
+				2373D9F0206C1FB400038B74 /* lsl.min.js */,
+				2373D9D1206C1FB100038B74 /* lua.min.js */,
+				2373DA0F206C1FB800038B74 /* makefile.min.js */,
+				2373D9A8206C1FAD00038B74 /* markdown.min.js */,
+				2373D9DC206C1FB200038B74 /* mathematica.min.js */,
+				2373DA41206C1FBE00038B74 /* matlab.min.js */,
+				2373DA03206C1FB600038B74 /* maxima.min.js */,
+				2373DA15206C1FB900038B74 /* mel.min.js */,
+				2373DA47206C1FBF00038B74 /* mercury.min.js */,
+				2373DA0A206C1FB700038B74 /* mipsasm.min.js */,
+				2373D9A0206C1FAC00038B74 /* mizar.min.js */,
+				2373DA1B206C1FBA00038B74 /* mojolicious.min.js */,
+				2373D9AE206C1FAE00038B74 /* monkey.min.js */,
+				2373D9F9206C1FB500038B74 /* moonscript.min.js */,
+				2373D9A4206C1FAD00038B74 /* n1ql.min.js */,
+				2373D9DA206C1FB200038B74 /* nginx.min.js */,
+				2373D9A5206C1FAD00038B74 /* nimrod.min.js */,
+				2373D9A6206C1FAD00038B74 /* nix.min.js */,
+				2373DA22206C1FBA00038B74 /* nsis.min.js */,
+				2373D9A7206C1FAD00038B74 /* objectivec.min.js */,
+				2373D9DB206C1FB200038B74 /* ocaml.min.js */,
+				2373D9C0206C1FAF00038B74 /* openscad.min.js */,
+				2373D9E4206C1FB300038B74 /* oxygene.min.js */,
+				2373D9D0206C1FB100038B74 /* parser3.min.js */,
+				2373D9C8206C1FB000038B74 /* perl.min.js */,
+				2373D9C9206C1FB000038B74 /* pf.min.js */,
+				2373DA16206C1FB900038B74 /* php.min.js */,
+				2373D9BF206C1FAF00038B74 /* pony.min.js */,
+				2373D9C1206C1FAF00038B74 /* powershell.min.js */,
+				2373D9B3206C1FAE00038B74 /* processing.min.js */,
+				2373D9CB206C1FB000038B74 /* profile.min.js */,
+				2373DA29206C1FBB00038B74 /* prolog.min.js */,
+				2373D9C2206C1FAF00038B74 /* protobuf.min.js */,
+				2373D9AB206C1FAD00038B74 /* puppet.min.js */,
+				2373D9FA206C1FB500038B74 /* purebasic.min.js */,
+				2373D9B7206C1FAE00038B74 /* python.min.js */,
+				2373D9D4206C1FB100038B74 /* q.min.js */,
+				2373DA18206C1FB900038B74 /* qml.min.js */,
+				2373D9D5206C1FB100038B74 /* r.min.js */,
+				2373D9AF206C1FAE00038B74 /* rib.min.js */,
+				2373DA24206C1FBB00038B74 /* roboconf.min.js */,
+				2373DA05206C1FB700038B74 /* routeros.min.js */,
+				2373D9CA206C1FB000038B74 /* rsl.min.js */,
+				2373D9ED206C1FB400038B74 /* ruby.min.js */,
+				2373D9E8206C1FB300038B74 /* ruleslanguage.min.js */,
+				2373D9E2206C1FB300038B74 /* rust.min.js */,
+				2373DA0B206C1FB700038B74 /* scala.min.js */,
+				2373DA36206C1FBD00038B74 /* scheme.min.js */,
+				2373D9E7206C1FB300038B74 /* scilab.min.js */,
+				2373D9FB206C1FB600038B74 /* scss.min.js */,
+				2373D9FC206C1FB600038B74 /* shell.min.js */,
+				2373D9F7206C1FB500038B74 /* smali.min.js */,
+				2373DA25206C1FBB00038B74 /* smalltalk.min.js */,
+				2373DA3F206C1FBE00038B74 /* sml.min.js */,
+				2373DA49206C1FBF00038B74 /* sqf.min.js */,
+				2373D9B0206C1FAE00038B74 /* sql.min.js */,
+				2373D9D2206C1FB100038B74 /* stan.min.js */,
+				2373DA4A206C1FBF00038B74 /* stata.min.js */,
+				2373D9FD206C1FB600038B74 /* step21.min.js */,
+				2373DA1C206C1FBA00038B74 /* stylus.min.js */,
+				2373D9B8206C1FAE00038B74 /* subunit.min.js */,
+				2373DA40206C1FBE00038B74 /* swift.min.js */,
+				2373D9DE206C1FB200038B74 /* taggerscript.min.js */,
+				2373D9FE206C1FB600038B74 /* tap.min.js */,
+				2373DA4B206C1FBF00038B74 /* tcl.min.js */,
+				2373DA3E206C1FBE00038B74 /* tex.min.js */,
+				2373D9C3206C1FB000038B74 /* thrift.min.js */,
+				2373DA2E206C1FBC00038B74 /* tp.min.js */,
+				2373D9DF206C1FB200038B74 /* twig.min.js */,
+				2373D9C4206C1FB000038B74 /* typescript.min.js */,
+				2373D9DD206C1FB200038B74 /* vala.min.js */,
+				2373D9E9206C1FB300038B74 /* vbnet.min.js */,
+				2373D9EF206C1FB400038B74 /* vbscript-html.min.js */,
+				2373D9D8206C1FB200038B74 /* vbscript.min.js */,
+				2373DA1A206C1FB900038B74 /* verilog.min.js */,
+				2373D9B1206C1FAE00038B74 /* vhdl.min.js */,
+				2373DA1E206C1FBA00038B74 /* vim.min.js */,
+				2373D9E3206C1FB300038B74 /* x86asm.min.js */,
+				2373DA00206C1FB600038B74 /* xl.min.js */,
+				2373D9CC206C1FB000038B74 /* xml.min.js */,
+				2373DA3D206C1FBE00038B74 /* xquery.min.js */,
+				2373D9B2206C1FAE00038B74 /* yaml.min.js */,
+				2373DA4C206C1FBF00038B74 /* zephir.min.js */,
+			);
+			path = languages;
+			sourceTree = "<group>";
+		};
+		2373DB08206C202000038B74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2373DB09206C206800038B74 /* Highlightr-macOS-dummy.m */,
+				2373DB0A206C206800038B74 /* Highlightr-macOS-prefix.pch */,
+				2373DB0B206C206800038B74 /* Highlightr-macOS-umbrella.h */,
+				2373DB0E206C206800038B74 /* Highlightr-macOS.xcconfig */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		2373DB14206C20AA00038B74 /* CodeTextView */ = {
+			isa = PBXGroup;
+			children = (
+				2373DB15206C20DC00038B74 /* LineNumberGutter.swift */,
+				2373DB16206C20DC00038B74 /* CodeTextView.swift */,
+			);
+			path = CodeTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2373D8E7206C1DF700038B74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2373DB11206C206900038B74 /* Highlightr-macOS-umbrella.h in Headers */,
+				2373D8EF206C1DF700038B74 /* CodeTextView.h in Headers */,
+				2373DB10206C206900038B74 /* Highlightr-macOS-prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2373D8E9206C1DF700038B74 /* CodeTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2373D8F2206C1DF700038B74 /* Build configuration list for PBXNativeTarget "CodeTextView" */;
+			buildPhases = (
+				2373D8E5206C1DF700038B74 /* Sources */,
+				2373D8E6206C1DF700038B74 /* Frameworks */,
+				2373D8E7206C1DF700038B74 /* Headers */,
+				2373D8E8206C1DF700038B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeTextView;
+			productName = CodeTextView;
+			productReference = 2373D8EA206C1DF700038B74 /* CodeTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2373D8E1206C1DF700038B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "戴植锐";
+				TargetAttributes = {
+					2373D8E9206C1DF700038B74 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2373D8E4206C1DF700038B74 /* Build configuration list for PBXProject "CodeTextView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2373D8E0206C1DF700038B74;
+			productRefGroup = 2373D8EB206C1DF700038B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2373D8E9206C1DF700038B74 /* CodeTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2373D8E8206C1DF700038B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2373DAB7206C1FC000038B74 /* dust.min.js in Resources */,
+				2373DA57206C1FC000038B74 /* objectivec.min.js in Resources */,
+				2373DAAD206C1FC000038B74 /* step21.min.js in Resources */,
+				2373DAD9206C1FC000038B74 /* prolog.min.js in Resources */,
+				2373DA6D206C1FC000038B74 /* inform7.min.js in Resources */,
+				2373DACC206C1FC000038B74 /* stylus.min.js in Resources */,
+				2373D956206C1F8400038B74 /* qtcreator_dark.min.css in Resources */,
+				2373DAEA206C1FC000038B74 /* dockerfile.min.js in Resources */,
+				2373D966206C1F8400038B74 /* tomorrow-night-bright.min.css in Resources */,
+				2373DA58206C1FC000038B74 /* markdown.min.js in Resources */,
+				2373DA8B206C1FC000038B74 /* ocaml.min.js in Resources */,
+				2373DAE8206C1FC000038B74 /* bash.min.js in Resources */,
+				2373DA5F206C1FC000038B74 /* rib.min.js in Resources */,
+				2373DAD6206C1FC000038B74 /* hy.min.js in Resources */,
+				2373DAC5206C1FC000038B74 /* mel.min.js in Resources */,
+				2373DAF2206C1FC000038B74 /* livescript.min.js in Resources */,
+				2373D989206C1F8400038B74 /* docco.min.css in Resources */,
+				2373DA74206C1FC000038B74 /* typescript.min.js in Resources */,
+				2373DA52206C1FC000038B74 /* flix.min.js in Resources */,
+				2373D99C206C1F8400038B74 /* grayscale.min.css in Resources */,
+				2373DAC7206C1FC000038B74 /* handlebars.min.js in Resources */,
+				2373DA67206C1FC000038B74 /* python.min.js in Resources */,
+				2373D963206C1F8400038B74 /* hybrid.min.css in Resources */,
+				2373DA5C206C1FC000038B74 /* coq.min.js in Resources */,
+				2373DAE5206C1FC000038B74 /* gherkin.min.js in Resources */,
+				2373DAFC206C1FC000038B74 /* zephir.min.js in Resources */,
+				2373DA9E206C1FC000038B74 /* armasm.min.js in Resources */,
+				2373DAA4206C1FC000038B74 /* lasso.min.js in Resources */,
+				2373DA5B206C1FC000038B74 /* puppet.min.js in Resources */,
+				2373DA9F206C1FC000038B74 /* vbscript-html.min.js in Resources */,
+				2373DA79206C1FC000038B74 /* pf.min.js in Resources */,
+				2373DA97206C1FC000038B74 /* scilab.min.js in Resources */,
+				2373D968206C1F8400038B74 /* arta.min.css in Resources */,
+				2373DAB8206C1FC000038B74 /* d.min.js in Resources */,
+				2373DA6F206C1FC000038B74 /* pony.min.js in Resources */,
+				2373DA76206C1FC000038B74 /* erlang.min.js in Resources */,
+				2373DACB206C1FC000038B74 /* mojolicious.min.js in Resources */,
+				2373D967206C1F8400038B74 /* atelier-plateau-dark.min.css in Resources */,
+				2373D98C206C1F8400038B74 /* tomorrow-night-eighties.min.css in Resources */,
+				2373DA6C206C1FC000038B74 /* crmsh.min.js in Resources */,
+				2373DA56206C1FC000038B74 /* nix.min.js in Resources */,
+				2373DAD5206C1FC000038B74 /* smalltalk.min.js in Resources */,
+				2373DA99206C1FC000038B74 /* vbnet.min.js in Resources */,
+				2373DACD206C1FC000038B74 /* accesslog.min.js in Resources */,
+				2373DAB4206C1FC000038B74 /* asciidoc.min.js in Resources */,
+				2373DA5D206C1FC000038B74 /* leaf.min.js in Resources */,
+				2373DA9B206C1FC000038B74 /* 1c.min.js in Resources */,
+				2373DA8D206C1FC000038B74 /* vala.min.js in Resources */,
+				2373DA60206C1FC000038B74 /* sql.min.js in Resources */,
+				2373D978206C1F8400038B74 /* androidstudio.min.css in Resources */,
+				2373DA61206C1FC000038B74 /* vhdl.min.js in Resources */,
+				2373DAAF206C1FC000038B74 /* kotlin.min.js in Resources */,
+				2373D97A206C1F8400038B74 /* pojoaque.jpg in Resources */,
+				2373DABC206C1FC000038B74 /* elixir.min.js in Resources */,
+				2373DABA206C1FC000038B74 /* mipsasm.min.js in Resources */,
+				2373D951206C1F8400038B74 /* darkula.min.css in Resources */,
+				2373D959206C1F8400038B74 /* gruvbox-light.min.css in Resources */,
+				2373DAD1206C1FC000038B74 /* less.min.js in Resources */,
+				2373D965206C1F8400038B74 /* railscasts.min.css in Resources */,
+				2373DA87206C1FC000038B74 /* cmake.min.js in Resources */,
+				2373DA65206C1FC000038B74 /* diff.min.js in Resources */,
+				2373DAA8206C1FC000038B74 /* ceylon.min.js in Resources */,
+				2373DA9A206C1FC000038B74 /* go.min.js in Resources */,
+				2373DAA6206C1FC000038B74 /* coffeescript.min.js in Resources */,
+				2373DAD3206C1FC000038B74 /* delphi.min.js in Resources */,
+				2373DA81206C1FC000038B74 /* lua.min.js in Resources */,
+				2373DA75206C1FC000038B74 /* dos.min.js in Resources */,
+				2373DABE206C1FC000038B74 /* excel.min.js in Resources */,
+				2373DACA206C1FC000038B74 /* verilog.min.js in Resources */,
+				2373DA8E206C1FC000038B74 /* taggerscript.min.js in Resources */,
+				2373DA89206C1FC000038B74 /* http.min.js in Resources */,
+				2373D99B206C1F8400038B74 /* zenburn.min.css in Resources */,
+				2373D991206C1F8400038B74 /* solarized-light.min.css in Resources */,
+				2373D95C206C1F8400038B74 /* vs.min.css in Resources */,
+				2373DAA2206C1FC000038B74 /* clojure.min.js in Resources */,
+				2373DAB9206C1FC000038B74 /* clean.min.js in Resources */,
+				2373D98E206C1F8400038B74 /* atelier-sulphurpool-light.min.css in Resources */,
+				2373DAB5206C1FC000038B74 /* routeros.min.js in Resources */,
+				2373DAF8206C1FC000038B74 /* fix.min.js in Resources */,
+				2373D988206C1F8400038B74 /* ir-black.min.css in Resources */,
+				2373DAEC206C1FC000038B74 /* actionscript.min.js in Resources */,
+				2373DA55206C1FC000038B74 /* nimrod.min.js in Resources */,
+				2373D981206C1F8400038B74 /* kimbie.dark.min.css in Resources */,
+				2373DA88206C1FC000038B74 /* vbscript.min.js in Resources */,
+				2373D95F206C1F8400038B74 /* atom-one-light.min.css in Resources */,
+				2373D964206C1F8400038B74 /* ocean.min.css in Resources */,
+				2373D99D206C1F8400038B74 /* hopscotch.min.css in Resources */,
+				2373D977206C1F8400038B74 /* atelier-estuary-light.min.css in Resources */,
+				2373DAC4206C1FC000038B74 /* cos.min.js in Resources */,
+				2373D953206C1F8400038B74 /* xcode.min.css in Resources */,
+				2373DAFF206C1FCC00038B74 /* highlight.min.js in Resources */,
+				2373DADE206C1FC000038B74 /* tp.min.js in Resources */,
+				2373D970206C1F8400038B74 /* atelier-cave-light.min.css in Resources */,
+				2373DA6E206C1FC000038B74 /* dns.min.js in Resources */,
+				2373D997206C1F8400038B74 /* foundation.min.css in Resources */,
+				2373DAE1206C1FC000038B74 /* crystal.min.js in Resources */,
+				2373DAF0206C1FC000038B74 /* swift.min.js in Resources */,
+				2373D971206C1F8400038B74 /* atelier-dune-light.min.css in Resources */,
+				2373DAE2206C1FC000038B74 /* glsl.min.js in Resources */,
+				2373D961206C1F8400038B74 /* paraiso-light.min.css in Resources */,
+				2373DA80206C1FC000038B74 /* parser3.min.js in Resources */,
+				2373D95B206C1F8400038B74 /* atelier-estuary-dark.min.css in Resources */,
+				2373D97E206C1F8400038B74 /* tomorrow-night-blue.min.css in Resources */,
+				2373DA62206C1FC000038B74 /* yaml.min.js in Resources */,
+				2373DAB2206C1FC000038B74 /* erb.min.js in Resources */,
+				2373D98D206C1F8400038B74 /* vs2015.min.css in Resources */,
+				2373DA8C206C1FC000038B74 /* mathematica.min.js in Resources */,
+				2373DA68206C1FC000038B74 /* subunit.min.js in Resources */,
+				2373DA8F206C1FC000038B74 /* twig.min.js in Resources */,
+				2373DA63206C1FC000038B74 /* processing.min.js in Resources */,
+				2373DAC9206C1FC000038B74 /* dsconfig.min.js in Resources */,
+				2373D96A206C1F8400038B74 /* atelier-forest-dark.min.css in Resources */,
+				2373D94F206C1F8400038B74 /* kimbie.light.min.css in Resources */,
+				2373DA69206C1FC000038B74 /* haskell.min.js in Resources */,
+				2373DA9D206C1FC000038B74 /* ruby.min.js in Resources */,
+				2373DAE6206C1FC000038B74 /* scheme.min.js in Resources */,
+				2373DA7D206C1FC000038B74 /* julia.min.js in Resources */,
+				2373DAF3206C1FC000038B74 /* awk.min.js in Resources */,
+				2373DAA9206C1FC000038B74 /* moonscript.min.js in Resources */,
+				2373D95A206C1F8400038B74 /* agate.min.css in Resources */,
+				2373DAAC206C1FC000038B74 /* shell.min.js in Resources */,
+				2373D99A206C1F8400038B74 /* atelier-lakeside-light.min.css in Resources */,
+				2373D982206C1F8400038B74 /* tomorrow.min.css in Resources */,
+				2373DAFD206C1FC000038B74 /* hsp.min.js in Resources */,
+				2373D979206C1F8400038B74 /* arduino-light.min.css in Resources */,
+				2373DA4F206C1FC000038B74 /* gradle.min.js in Resources */,
+				2373DA4E206C1FC000038B74 /* gams.min.js in Resources */,
+				2373D94D206C1F8400038B74 /* monokai-sublime.min.css in Resources */,
+				2373DA71206C1FC000038B74 /* powershell.min.js in Resources */,
+				2373DADD206C1FC000038B74 /* livecodeserver.min.js in Resources */,
+				2373DA50206C1FC000038B74 /* mizar.min.js in Resources */,
+				2373DAE7206C1FC000038B74 /* django.min.js in Resources */,
+				2373D998206C1F8400038B74 /* idea.min.css in Resources */,
+				2373DA90206C1FC000038B74 /* ebnf.min.js in Resources */,
+				2373DA7A206C1FC000038B74 /* rsl.min.js in Resources */,
+				2373D994206C1F8400038B74 /* github-gist.min.css in Resources */,
+				2373D94C206C1F8400038B74 /* ascetic.min.css in Resources */,
+				2373DA5A206C1FC000038B74 /* ldif.min.js in Resources */,
+				2373DAAE206C1FC000038B74 /* tap.min.js in Resources */,
+				2373D986206C1F8400038B74 /* atelier-heath-light.min.css in Resources */,
+				2373DA53206C1FC000038B74 /* haxe.min.js in Resources */,
+				2373DAC1206C1FC000038B74 /* cal.min.js in Resources */,
+				2373DAD2206C1FC000038B74 /* nsis.min.js in Resources */,
+				2373D983206C1F8400038B74 /* dracula.min.css in Resources */,
+				2373DA94206C1FC000038B74 /* oxygene.min.js in Resources */,
+				2373D962206C1F8400038B74 /* atelier-plateau-light.min.css in Resources */,
+				2373D987206C1F8400038B74 /* googlecode.min.css in Resources */,
+				2373DA93206C1FC000038B74 /* x86asm.min.js in Resources */,
+				2373DA82206C1FC000038B74 /* stan.min.js in Resources */,
+				2373DA92206C1FC000038B74 /* rust.min.js in Resources */,
+				2373DAF7206C1FC000038B74 /* mercury.min.js in Resources */,
+				2373DAAA206C1FC000038B74 /* purebasic.min.js in Resources */,
+				2373DAB3206C1FC000038B74 /* maxima.min.js in Resources */,
+				2373DACE206C1FC000038B74 /* vim.min.js in Resources */,
+				2373D980206C1F8400038B74 /* atelier-dune-dark.min.css in Resources */,
+				2373DAD7206C1FC000038B74 /* erlang-repl.min.js in Resources */,
+				2373DA70206C1FC000038B74 /* openscad.min.js in Resources */,
+				2373DACF206C1FC000038B74 /* css.min.js in Resources */,
+				2373DA95206C1FC000038B74 /* llvm.min.js in Resources */,
+				2373DAEF206C1FC000038B74 /* sml.min.js in Resources */,
+				2373DB13206C206900038B74 /* Highlightr-macOS.xcconfig in Resources */,
+				2373DADA206C1FC000038B74 /* json.min.js in Resources */,
+				2373DA7E206C1FC000038B74 /* ada.min.js in Resources */,
+				2373D974206C1F8400038B74 /* sunburst.min.css in Resources */,
+				2373D97D206C1F8400038B74 /* paraiso-dark.min.css in Resources */,
+				2373DA96206C1FC000038B74 /* csp.min.js in Resources */,
+				2373DAB0206C1FC000038B74 /* xl.min.js in Resources */,
+				2373DAC6206C1FC000038B74 /* php.min.js in Resources */,
+				2373DA8A206C1FC000038B74 /* nginx.min.js in Resources */,
+				2373DADF206C1FC000038B74 /* ini.min.js in Resources */,
+				2373DA66206C1FC000038B74 /* dts.min.js in Resources */,
+				2373D95E206C1F8400038B74 /* atelier-seaside-light.min.css in Resources */,
+				2373D950206C1F8400038B74 /* atelier-savanna-dark.min.css in Resources */,
+				2373D97F206C1F8400038B74 /* xt256.min.css in Resources */,
+				2373DADC206C1FC000038B74 /* cpp.min.js in Resources */,
+				2373D957206C1F8400038B74 /* tomorrow-night.min.css in Resources */,
+				2373DABF206C1FC000038B74 /* makefile.min.js in Resources */,
+				2373DA7F206C1FC000038B74 /* autoit.min.js in Resources */,
+				2373DAEE206C1FC000038B74 /* tex.min.js in Resources */,
+				2373DA5E206C1FC000038B74 /* monkey.min.js in Resources */,
+				2373D975206C1F8400038B74 /* color-brewer.min.css in Resources */,
+				2373DAF6206C1FC000038B74 /* capnproto.min.js in Resources */,
+				2373DAA7206C1FC000038B74 /* smali.min.js in Resources */,
+				2373DA84206C1FC000038B74 /* q.min.js in Resources */,
+				2373DA73206C1FC000038B74 /* thrift.min.js in Resources */,
+				2373DA59206C1FC000038B74 /* irpf90.min.js in Resources */,
+				2373DAF1206C1FC000038B74 /* matlab.min.js in Resources */,
+				2373D984206C1F8400038B74 /* mono-blue.min.css in Resources */,
+				2373D960206C1F8400038B74 /* pojoaque.min.css in Resources */,
+				2373DAC8206C1FC000038B74 /* qml.min.js in Resources */,
+				2373DAE3206C1FC000038B74 /* jboss-cli.min.js in Resources */,
+				2373DAED206C1FC000038B74 /* xquery.min.js in Resources */,
+				2373DABB206C1FC000038B74 /* scala.min.js in Resources */,
+				2373D98F206C1F8400038B74 /* atelier-cave-dark.min.css in Resources */,
+				2373DAE4206C1FC000038B74 /* htmlbars.min.js in Resources */,
+				2373DAE9206C1FC000038B74 /* julia-repl.min.js in Resources */,
+				2373D98A206C1F8400038B74 /* brown-paper.min.css in Resources */,
+				2373DAA3206C1FC000038B74 /* avrasm.min.js in Resources */,
+				2373DA6A206C1FC000038B74 /* axapta.min.js in Resources */,
+				2373DAAB206C1FC000038B74 /* scss.min.js in Resources */,
+				2373D98B206C1F8400038B74 /* far.min.css in Resources */,
+				2373D999206C1F8400038B74 /* qtcreator_light.min.css in Resources */,
+				2373D95D206C1F8400038B74 /* school-book.min.css in Resources */,
+				2373D96C206C1F8400038B74 /* dark.min.css in Resources */,
+				2373DAB1206C1FC000038B74 /* apache.min.js in Resources */,
+				2373DA83206C1FC000038B74 /* golo.min.js in Resources */,
+				2373DAFB206C1FC000038B74 /* tcl.min.js in Resources */,
+				2373DA85206C1FC000038B74 /* r.min.js in Resources */,
+				2373DA72206C1FC000038B74 /* protobuf.min.js in Resources */,
+				2373DAD4206C1FC000038B74 /* roboconf.min.js in Resources */,
+				2373DABD206C1FC000038B74 /* haml.min.js in Resources */,
+				2373DAF4206C1FC000038B74 /* basic.min.js in Resources */,
+				2373DAD8206C1FC000038B74 /* autohotkey.min.js in Resources */,
+				2373DA64206C1FC000038B74 /* cs.min.js in Resources */,
+				2373D995206C1F8400038B74 /* atelier-savanna-light.min.css in Resources */,
+				2373DAFA206C1FC000038B74 /* stata.min.js in Resources */,
+				2373DA77206C1FC000038B74 /* clojure-repl.min.js in Resources */,
+				2373D958206C1F8400038B74 /* darcula.min.css in Resources */,
+				2373D973206C1F8400038B74 /* atom-one-dark.min.css in Resources */,
+				2373D96B206C1F8400038B74 /* github.min.css in Resources */,
+				2373D996206C1F8400038B74 /* monokai.min.css in Resources */,
+				2373DAD0206C1FC000038B74 /* javascript.min.js in Resources */,
+				2373D992206C1F8400038B74 /* atelier-forest-light.min.css in Resources */,
+				2373D954206C1F8400038B74 /* atelier-seaside-dark.min.css in Resources */,
+				2373DA98206C1FC000038B74 /* ruleslanguage.min.js in Resources */,
+				2373DAF9206C1FC000038B74 /* sqf.min.js in Resources */,
+				2373D952206C1F8400038B74 /* rainbow.min.css in Resources */,
+				2373DA6B206C1FC000038B74 /* groovy.min.js in Resources */,
+				2373DA86206C1FC000038B74 /* applescript.min.js in Resources */,
+				2373D955206C1F8400038B74 /* atelier-sulphurpool-dark.min.css in Resources */,
+				2373D94E206C1F8400038B74 /* codepen-embed.min.css in Resources */,
+				2373DA91206C1FC000038B74 /* elm.min.js in Resources */,
+				2373DAA0206C1FC000038B74 /* lsl.min.js in Resources */,
+				2373DAC2206C1FC000038B74 /* bnf.min.js in Resources */,
+				2373DA54206C1FC000038B74 /* n1ql.min.js in Resources */,
+				2373D972206C1F8400038B74 /* atelier-lakeside-dark.min.css in Resources */,
+				2373DAE0206C1FC000038B74 /* dart.min.js in Resources */,
+				2373DA78206C1FC000038B74 /* perl.min.js in Resources */,
+				2373DAF5206C1FC000038B74 /* brainfuck.min.js in Resources */,
+				2373D96E206C1F8400038B74 /* default.min.css in Resources */,
+				2373D990206C1F8400038B74 /* magula.min.css in Resources */,
+				2373D969206C1F8400038B74 /* atelier-heath-dark.min.css in Resources */,
+				2373DA7C206C1FC000038B74 /* xml.min.js in Resources */,
+				2373D993206C1F8400038B74 /* gruvbox-dark.min.css in Resources */,
+				2373DAEB206C1FC000038B74 /* lisp.min.js in Resources */,
+				2373D97B206C1F8400038B74 /* routeros.min.css in Resources */,
+				2373DAC3206C1FC000038B74 /* gcode.min.js in Resources */,
+				2373DAC0206C1FC000038B74 /* arduino.min.js in Resources */,
+				2373DA51206C1FC000038B74 /* gauss.min.js in Resources */,
+				2373DADB206C1FC000038B74 /* aspectj.min.js in Resources */,
+				2373D97C206C1F8400038B74 /* school-book.png in Resources */,
+				2373D96D206C1F8400038B74 /* brown-papersq.png in Resources */,
+				2373DA7B206C1FC000038B74 /* profile.min.js in Resources */,
+				2373DAA5206C1FC000038B74 /* fsharp.min.js in Resources */,
+				2373D96F206C1F8400038B74 /* solarized-dark.min.css in Resources */,
+				2373DAA1206C1FC000038B74 /* java.min.js in Resources */,
+				2373D985206C1F8400038B74 /* purebasic.min.css in Resources */,
+				2373DA9C206C1FC000038B74 /* fortran.min.js in Resources */,
+				2373DAB6206C1FC000038B74 /* abnf.min.js in Resources */,
+				2373D976206C1F8400038B74 /* obsidian.min.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2373D8E5206C1DF700038B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2373DB04206C1FE000038B74 /* HTMLUtils.swift in Sources */,
+				2373DB07206C1FE000038B74 /* Highlightr.swift in Sources */,
+				2373DB06206C1FE000038B74 /* CodeAttributedString.swift in Sources */,
+				2373DB19206C20DC00038B74 /* LineNumberGutter.swift in Sources */,
+				2373DB0F206C206900038B74 /* Highlightr-macOS-dummy.m in Sources */,
+				2373DB05206C1FE000038B74 /* Theme.swift in Sources */,
+				2373DB1A206C20DC00038B74 /* CodeTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2373D8F0206C1DF700038B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2373D8F1206C1DF700038B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2373D8F3206C1DF700038B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 79DD7SDR2J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CodeTextView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = daizhirui.CodeTextView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		2373D8F4206C1DF700038B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 79DD7SDR2J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = CodeTextView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = daizhirui.CodeTextView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2373D8E4206C1DF700038B74 /* Build configuration list for PBXProject "CodeTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2373D8F0206C1DF700038B74 /* Debug */,
+				2373D8F1206C1DF700038B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2373D8F2206C1DF700038B74 /* Build configuration list for PBXNativeTarget "CodeTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2373D8F3206C1DF700038B74 /* Debug */,
+				2373D8F4206C1DF700038B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2373D8E1206C1DF700038B74 /* Project object */;
+}

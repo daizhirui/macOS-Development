@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23861E0D2052CD5B001AF23E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23861E0C2052CD5B001AF23E /* AppDelegate.swift */; };
+		23861E0F2052CD5B001AF23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23861E0E2052CD5B001AF23E /* Assets.xcassets */; };
+		23861E122052CD5B001AF23E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23861E102052CD5B001AF23E /* MainMenu.xib */; };
+		23861E1C2052CE70001AF23E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23861E1A2052CE70001AF23E /* FirstViewController.swift */; };
+		23861E1D2052CE70001AF23E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23861E1B2052CE70001AF23E /* FirstViewController.xib */; };
+		23861E202052CE88001AF23E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23861E1E2052CE88001AF23E /* SecondViewController.swift */; };
+		23861E212052CE88001AF23E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23861E1F2052CE88001AF23E /* SecondViewController.xib */; };
+		23861E232052CEBE001AF23E /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23861E222052CEBE001AF23E /* TabViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23861E092052CD5B001AF23E /* NSTabViewControllerXibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTabViewControllerXibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23861E0C2052CD5B001AF23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23861E0E2052CD5B001AF23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23861E112052CD5B001AF23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		23861E132052CD5B001AF23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23861E142052CD5B001AF23E /* NSTabViewControllerXibDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTabViewControllerXibDemo.entitlements; sourceTree = "<group>"; };
+		23861E1A2052CE70001AF23E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		23861E1B2052CE70001AF23E /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		23861E1E2052CE88001AF23E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		23861E1F2052CE88001AF23E /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		23861E222052CEBE001AF23E /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23861E062052CD5B001AF23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23861E002052CD5B001AF23E = {
+			isa = PBXGroup;
+			children = (
+				23861E0B2052CD5B001AF23E /* NSTabViewControllerXibDemo */,
+				23861E0A2052CD5B001AF23E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23861E0A2052CD5B001AF23E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23861E092052CD5B001AF23E /* NSTabViewControllerXibDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23861E0B2052CD5B001AF23E /* NSTabViewControllerXibDemo */ = {
+			isa = PBXGroup;
+			children = (
+				23861E0C2052CD5B001AF23E /* AppDelegate.swift */,
+				23861E0E2052CD5B001AF23E /* Assets.xcassets */,
+				23861E102052CD5B001AF23E /* MainMenu.xib */,
+				23861E132052CD5B001AF23E /* Info.plist */,
+				23861E142052CD5B001AF23E /* NSTabViewControllerXibDemo.entitlements */,
+				23861E1A2052CE70001AF23E /* FirstViewController.swift */,
+				23861E1B2052CE70001AF23E /* FirstViewController.xib */,
+				23861E1E2052CE88001AF23E /* SecondViewController.swift */,
+				23861E1F2052CE88001AF23E /* SecondViewController.xib */,
+				23861E222052CEBE001AF23E /* TabViewController.swift */,
+			);
+			path = NSTabViewControllerXibDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23861E082052CD5B001AF23E /* NSTabViewControllerXibDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23861E172052CD5B001AF23E /* Build configuration list for PBXNativeTarget "NSTabViewControllerXibDemo" */;
+			buildPhases = (
+				23861E052052CD5B001AF23E /* Sources */,
+				23861E062052CD5B001AF23E /* Frameworks */,
+				23861E072052CD5B001AF23E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTabViewControllerXibDemo;
+			productName = NSTabViewControllerXibDemo;
+			productReference = 23861E092052CD5B001AF23E /* NSTabViewControllerXibDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23861E012052CD5B001AF23E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "戴植锐";
+				TargetAttributes = {
+					23861E082052CD5B001AF23E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 23861E042052CD5B001AF23E /* Build configuration list for PBXProject "NSTabViewControllerXibDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23861E002052CD5B001AF23E;
+			productRefGroup = 23861E0A2052CD5B001AF23E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23861E082052CD5B001AF23E /* NSTabViewControllerXibDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23861E072052CD5B001AF23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23861E212052CE88001AF23E /* SecondViewController.xib in Resources */,
+				23861E0F2052CD5B001AF23E /* Assets.xcassets in Resources */,
+				23861E1D2052CE70001AF23E /* FirstViewController.xib in Resources */,
+				23861E122052CD5B001AF23E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23861E052052CD5B001AF23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23861E232052CEBE001AF23E /* TabViewController.swift in Sources */,
+				23861E202052CE88001AF23E /* SecondViewController.swift in Sources */,
+				23861E0D2052CD5B001AF23E /* AppDelegate.swift in Sources */,
+				23861E1C2052CE70001AF23E /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23861E102052CD5B001AF23E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23861E112052CD5B001AF23E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23861E152052CD5B001AF23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23861E162052CD5B001AF23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		23861E182052CD5B001AF23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSTabViewControllerXibDemo/NSTabViewControllerXibDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTabViewControllerXibDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daizhirui.NSTabViewControllerXibDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		23861E192052CD5B001AF23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSTabViewControllerXibDemo/NSTabViewControllerXibDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSTabViewControllerXibDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daizhirui.NSTabViewControllerXibDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23861E042052CD5B001AF23E /* Build configuration list for PBXProject "NSTabViewControllerXibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23861E152052CD5B001AF23E /* Debug */,
+				23861E162052CD5B001AF23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23861E172052CD5B001AF23E /* Build configuration list for PBXNativeTarget "NSTabViewControllerXibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23861E182052CD5B001AF23E /* Debug */,
+				23861E192052CD5B001AF23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23861E012052CD5B001AF23E /* Project object */;
+}

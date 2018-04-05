@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CDiscount",
+        "repositoryURL": "https://github.com/crossroadlabs/CDiscount.git",
+        "state": {
+          "branch": null,
+          "revision": "c7482f161c9d4d9c45fbd790dabb9859c2feafea",
+          "version": "2.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

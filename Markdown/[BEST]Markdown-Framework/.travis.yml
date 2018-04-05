@@ -1,0 +1,52 @@
+env:
+  global:
+    - MODULE_NAME=Markdown
+matrix:
+  include:
+    - script:
+        - xcodebuild clean test -project $MODULE_NAME.xcodeproj -scheme $MODULE_NAME | xcpretty --color && exit ${PIPESTATUS[0]}
+      os: osx
+      osx_image: xcode8.1
+      language: objective-c
+      before_install:
+        - brew update
+        - brew outdated carthage || brew upgrade carthage
+        - brew install discount
+      before_script:
+        # bootstrap the dependencies for the project
+        # you can remove if you don't have dependencies
+        - carthage bootstrap
+      before_deploy:
+        - carthage build --no-skip-current
+        - carthage archive $MODULE_NAME
+        - pod trunk push $MODULE_NAME.podspec
+      deploy:
+        provider: releases
+        api_key:
+          secure: IHTjFNMxpYwvKNHST771fewdcNONuiOMuMNkvG8exQNCDGYbs2PxauUHTUeudJxtyZzXoQHVwiHZMHmDeslWJnmRNohRZwTFmzXwxpB+XVJZkTXpGm2L+8ZLpW6X3PZ/1LIr5TTazddpU34MEi8sjvo02QQS6AgB/AMjoiU665w7hIWwUoUcVyFjlg3nR0fHWLCM61CsBfNNduDLjKVOlE3pRSjyb8qUs4BqbhczgnwDVuV3ouQlErzrWhWu9OWJZ+snFHWmzMfcQX4FMAubdi/eXCKkRugKOS8SZ9uGQrDaZqlXpZD4qhhH8Y4ITa3CLFqroeoBaayjK1W+7Zb63BTbxGnkwsbvlYWhDtgxxfHT6c94tvfoh8u8sTBbXg2M0wze8Xyfyi8uqR3DT1IxKJojYfwBEJ8/JlHlYXBHdoZC2BAkLduDiJ18E9ulvAzg1KaGhDKBE4gbGweiOMjp9SsNcRFUAeGRSc3SeA6mBXrScyFe+OgdSVGWJTUau9y3Mh7yAgFQ9+KnUwqdlLaYNENLuRlRQ1ozboy92A77HbDSefoVBABrd2bxW/Mdbz+5bUky8Vzft4QQQOhTpFd78A/ilZFlSSD+usaWHhpZCVjMogGvnIsJH10VSutnHENhwLDBEa51sdsLyAeIU8H2oS4VnnRg8CftddypY0CkG5c=
+        file: $MODULE_NAME.framework.zip
+        skip_cleanup: true
+        on:
+          repo: crossroadlabs/Markdown
+          tags: true
+    - script:
+        - swift build && swift test
+      sudo: required
+      dist: trusty
+      language: generic
+      before_install:
+        # dependencies
+        - sudo apt-get install libmarkdown2-dev
+        # install original swift distribution
+        - wget -q -O - https://swift.org/keys/all-keys.asc | gpg --import -
+        - cd ..
+        - export SWIFT_VERSION="swift-3.0.1-release"
+        - SWIFT_VERSION_UPPER=`echo $SWIFT_VERSION | perl -n -e'/^(.*?)-([\.\d]*?)-(.*)$/; $code = uc $3; print "$1-$2-${code}"'`
+        - wget https://swift.org/builds/$SWIFT_VERSION/ubuntu1404/$SWIFT_VERSION_UPPER/$SWIFT_VERSION_UPPER-ubuntu14.04.tar.gz
+        - tar xzf $SWIFT_VERSION_UPPER-ubuntu14.04.tar.gz
+        - export PATH="${PWD}/${SWIFT_VERSION_UPPER}-ubuntu14.04/usr/bin:${PATH}"
+        - export LD_LIBRARY_PATH="${PWD}/${SWIFT_VERSION_UPPER}-ubuntu14.04/usr/lib/swift/linux/:$LD_LIBRARY_PATH"
+        # get back home
+        - cd $MODULE_NAME
+notifications:
+  email: false

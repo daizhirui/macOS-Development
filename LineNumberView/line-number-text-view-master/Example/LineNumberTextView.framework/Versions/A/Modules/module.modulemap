@@ -1,0 +1,11 @@
+framework module LineNumberTextView {
+  umbrella header "LineNumberTextView.h"
+
+  export *
+  module * { export * }
+}
+
+module LineNumberTextView.Swift {
+    header "LineNumberTextView-Swift.h"
+    requires objc
+}
